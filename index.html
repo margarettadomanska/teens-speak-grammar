@@ -10,35 +10,50 @@
 
 <body>
 
-  <h1 class="site-title">
-    Teens Speak Grammar
-  </h1>
+  <!-- Logo -->
+  <div class="branding">
+    <img src="logo.png" class="logo" alt="Teens Speak Grammar Logo">
+  </div>
 
-  <p class="tagline">
-    Swipe. Speak. Master Grammar.
-  </p>
-
+  <!-- Topics -->
   <div id="topic-list"></div>
 
+  <!-- Tools -->
   <div class="tools">
     <button onclick="randomCard()">🎲 Random</button>
     <button onclick="togglePresentation()">🖥 Presentation</button>
   </div>
 
+  <!-- Card -->
   <div class="card-container">
-    <div id="card" class="card"></div>
+    <div id="card" class="card">
+      <h2>Select a grammar topic</h2>
+      <p class="hint">to see a question</p>
+    </div>
   </div>
 
   <div id="card-counter" class="card-counter"></div>
 
+  <!-- Swipe Hint -->
   <div class="swipe-indicator">↑ Swipe</div>
 
-  <footer class="footer">
+ <footer class="footer">
+  <div class="footer-line">
     Beta version • Help shape this tool •
     <a href="https://forms.gle/jydfYSWn3LYix9ax7" target="_blank">
       Give feedback
     </a>
-  </footer>
+  </div>
+
+  <div class="footer-line">
+    © 2026 Teens Speak Grammar • All rights reserved
+  </div>
+</footer>
+
+  <!-- Exit Button (Mobile + Presentation Mode) -->
+  <button id="exit-btn" class="exit-btn" onclick="togglePresentation()">
+    ✕ Exit
+  </button>
 
   <script src="script.js"></script>
 
