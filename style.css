@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #1E3A8A, #0EA5A4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+}
+
+/* ---------- TITLE ---------- */
+
+.site-title {
+  margin-top: 40px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.tagline {
+  margin-top: 6px;
+  font-size: 15px;
+  opacity: 0.85;
+  letter-spacing: 0.5px;
+}
+
+/* ---------- TOPIC BUTTONS ---------- */
+
+#topic-list {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 25px;
+  background: white;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+button.active-topic {
+  background: #0EA5A4;
+  color: white;
+}
+
+/* ---------- TOOL BUTTONS ---------- */
+
+.tools {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* ---------- CARD ---------- */
+
+.card-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  background: white;
+  color: #333;
+  width: 90%;
+  max-width: 650px;
+  min-height: 280px;
+  padding: 50px;
+  border-radius: 30px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.card h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.card p {
+  font-size: 18px;
+  color: #666;
+}
+
+.hint {
+  opacity: 0.35;
+}
+
+/* ---------- COUNTER ---------- */
+
+.card-counter {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* ---------- SWIPE INDICATOR ---------- */
+
+.swipe-indicator {
+  position: fixed;
+  bottom: 60px;
+  font-size: 14px;
+  opacity: 0.6;
+  animation: fadeOut 4s forwards;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 0.6; }
+  80% { opacity: 0.6; }
+  100% { opacity: 0; }
+}
+
+/* ---------- FOOTER ---------- */
+
+.footer {
+  position: fixed;
+  bottom: 15px;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* ---------- PRESENTATION MODE ---------- */
+
+.presentation-mode #topic-list,
+.presentation-mode .tools,
+.presentation-mode .swipe-indicator,
+.presentation-mode .footer,
+.presentation-mode .tagline {
+  display: none;
+}
+
+.presentation-mode .card {
+  transform: scale(1.2);
+}
