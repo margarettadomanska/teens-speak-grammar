@@ -14,43 +14,49 @@ body {
   text-align: center;
 }
 
-/* ---------- TITLE ---------- */
+/* ============================= */
+/* LOGO / BRANDING              */
+/* ============================= */
 
-.site-title {
-  margin-top: 40px;
-  font-size: 32px;
-  font-weight: 600;
+.branding {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.tagline {
-  margin-top: 6px;
-  font-size: 15px;
-  opacity: 0.85;
-  letter-spacing: 0.5px;
+.logo {
+  max-width: 620px;
+  width: 95%;
+  height: auto;
+  filter: drop-shadow(0 10px 25px rgba(0,0,0,0.35));
 }
 
-/* ---------- TOPIC BUTTONS ---------- */
+/* ============================= */
+/* TOPIC BUTTONS                */
+/* ============================= */
 
 #topic-list {
   margin-top: 25px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 12px;
-  max-width: 1000px;
+  gap: 14px;
+  max-width: 1100px;
   padding: 0 20px;
 }
 
 button {
-  padding: 8px 16px;
+  padding: 9px 18px;
   border: none;
-  border-radius: 25px;
+  border-radius: 30px;
   background: white;
   color: #333;
   cursor: pointer;
   font-size: 14px;
+  font-weight: 500;
   transition: all 0.2s ease;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 button:hover {
@@ -62,19 +68,23 @@ button.active-topic {
   color: white;
 }
 
-/* ---------- TOOL BUTTONS ---------- */
+/* ============================= */
+/* TOOL BUTTONS                 */
+/* ============================= */
 
 .tools {
-  margin-top: 15px;
+  margin-top: 20px;
   display: flex;
-  gap: 10px;
+  gap: 12px;
   justify-content: center;
 }
 
-/* ---------- CARD ---------- */
+/* ============================= */
+/* CARD                         */
+/* ============================= */
 
 .card-container {
-  margin-top: 60px;
+  margin-top: 70px;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -84,22 +94,22 @@ button.active-topic {
   background: white;
   color: #333;
   width: 90%;
-  max-width: 650px;
-  min-height: 280px;
-  padding: 50px;
-  border-radius: 30px;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+  max-width: 720px;
+  min-height: 320px;
+  padding: 60px 50px;
+  border-radius: 35px;
+  box-shadow: 0 25px 70px rgba(0,0,0,0.35);
   text-align: center;
   transition: all 0.3s ease;
 }
 
 .card h2 {
-  font-size: 28px;
-  margin-bottom: 25px;
+  font-size: 32px;
+  margin-bottom: 30px;
 }
 
 .card p {
-  font-size: 18px;
+  font-size: 19px;
   color: #666;
 }
 
@@ -107,19 +117,23 @@ button.active-topic {
   opacity: 0.35;
 }
 
-/* ---------- COUNTER ---------- */
+/* ============================= */
+/* COUNTER                      */
+/* ============================= */
 
 .card-counter {
-  margin-top: 20px;
+  margin-top: 25px;
   font-size: 16px;
   font-weight: 500;
 }
 
-/* ---------- SWIPE INDICATOR ---------- */
+/* ============================= */
+/* SWIPE INDICATOR              */
+/* ============================= */
 
 .swipe-indicator {
   position: fixed;
-  bottom: 60px;
+  bottom: 70px;
   font-size: 14px;
   opacity: 0.6;
   animation: fadeOut 4s forwards;
@@ -131,13 +145,22 @@ button.active-topic {
   100% { opacity: 0; }
 }
 
-/* ---------- FOOTER ---------- */
+/* ============================= */
+/* FOOTER                       */
+/* ============================= */
 
 .footer {
-  position: fixed;
-  bottom: 15px;
+  margin-top: 60px;
+  margin-bottom: 25px;
   font-size: 12px;
-  opacity: 0.8;
+  opacity: 0.85;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer-line {
+  line-height: 1.4;
 }
 
 .footer a {
@@ -145,16 +168,40 @@ button.active-topic {
   text-decoration: underline;
 }
 
-/* ---------- PRESENTATION MODE ---------- */
+/* ============================= */
+/* EXIT BUTTON                  */
+/* ============================= */
+
+.exit-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: none;
+  background: white;
+  color: #333;
+  font-size: 13px;
+  cursor: pointer;
+  display: none;
+  z-index: 1000;
+}
+
+/* ============================= */
+/* PRESENTATION MODE            */
+/* ============================= */
 
 .presentation-mode #topic-list,
 .presentation-mode .tools,
 .presentation-mode .swipe-indicator,
-.presentation-mode .footer,
-.presentation-mode .tagline {
+.presentation-mode .footer {
   display: none;
 }
 
 .presentation-mode .card {
-  transform: scale(1.2);
+  transform: scale(1.25);
+}
+
+.presentation-mode .exit-btn {
+  display: block;
 }
