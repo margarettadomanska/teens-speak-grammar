@@ -7,14 +7,13 @@
   <meta name="google-site-verification" content="ltpLrJgkxgkSWIdbOIQBAs649NTJRQuco6nBgXvbTUc" />
 
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GQBPRK1JK7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-GQBPRK1JK7');
-</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GQBPRK1JK7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GQBPRK1JK7');
+  </script>
 
   <title>Teens Speak Grammar | ESL Speaking Practice for Teens</title>
 
@@ -22,9 +21,7 @@
 
   <!-- SEO -->
   <meta name="description" content="Teens Speak Grammar is a swipe-based ESL speaking app for teenagers. Practice English grammar with interactive speaking cards. Ideal for ESL teachers and students.">
-
   <meta name="keywords" content="ESL speaking practice, ESL grammar app, speaking cards for teens, English tenses practice, classroom speaking activities">
-
   <meta name="robots" content="index, follow">
 
   <!-- Social Sharing -->
@@ -44,6 +41,12 @@
     <img src="logo.png" class="logo" alt="Teens Speak Grammar Logo">
   </div>
 
+  <!-- Grammar / Functional Tabs -->
+  <div class="type-tabs">
+    <button id="grammar-tab" class="active-tab">Grammar</button>
+    <button id="functional-tab">Functional Language</button>
+  </div>
+
   <!-- Topics -->
   <div id="topic-list"></div>
 
@@ -54,38 +57,41 @@
   </div>
 
   <!-- Card -->
-  <div class="card-container">
-    <div id="card" class="card">
-      <h2>Select a grammar topic</h2>
-      <p class="hint">to see a question</p>
-    </div>
+<div class="card-container">
+  <div id="card" class="card">
+    <h2>Select a topic</h2>
+    <p class="hint">to see a question</p>
   </div>
+</div>
 
   <div id="card-counter" class="card-counter"></div>
 
   <!-- Swipe Hint -->
   <div class="swipe-indicator">↑ Swipe</div>
 
- <footer class="footer">
-  <div class="footer-line">
-    Beta version • Help shape this tool •
-    <a href="https://forms.gle/jydfYSWn3LYix9ax7" target="_blank">
-      Give feedback
-    </a>
-  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-line">
+      Beta version • Help shape this tool •
+      <a href="https://forms.gle/jydfYSWn3LYix9ax7" target="_blank">
+        Give feedback
+      </a>
+    </div>
 
-  <div class="footer-line">
-    © 2026 Teens Speak Grammar • All rights reserved
-  </div>
-</footer>
+    <div class="footer-line">
+      © 2026 Teens Speak Grammar • All rights reserved
+    </div>
+  </footer>
 
-  <!-- Exit Button (Mobile + Presentation Mode) -->
+  <!-- Exit Button -->
   <button id="exit-btn" class="exit-btn" onclick="togglePresentation()">
     ✕ Exit
   </button>
 
+  <!-- Script -->
   <script src="script.js"></script>
 
 </body>
 </html>
+
 
