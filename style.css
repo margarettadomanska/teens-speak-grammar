@@ -19,17 +19,18 @@ body {
 /* ============================= */
 
 .branding {
-  margin-top: 25px;
+  margin-top: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .logo {
-  max-width: 620px;
+  max-width: 780px;  /* was 620px */
   width: 95%;
   height: auto;
   filter: drop-shadow(0 10px 25px rgba(0,0,0,0.35));
+
 }
 
 /* ============================= */
@@ -38,13 +39,19 @@ body {
 
 #topic-list {
   margin-top: 25px;
-  display: flex;
+  display: none;           /* hidden by default */
   flex-wrap: wrap;
   justify-content: center;
   gap: 14px;
   max-width: 1100px;
   padding: 0 20px;
 }
+
+#topic-list.visible {
+  display: flex;           /* show as flex */
+}
+
+/* DEFAULT BUTTON STYLE (Grammar, Functional, Random, Presentation) */
 
 button {
   padding: 9px 18px;
@@ -63,20 +70,82 @@ button:hover {
   transform: translateY(-2px);
 }
 
+/* ACTIVE TOPIC */
+
 button.active-topic {
   background: #0EA5A4;
   color: white;
 }
 
+/* TOPIC BUTTONS – glass style */
+
+#topic-list button {
+  background: rgba(255,255,255,0.24);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.4);
+  box-shadow: none;
+  backdrop-filter: blur(4px);
+}
+
+#topic-list button:hover {
+  background: rgba(255,255,255,0.28);
+}
+
+/* RANDOM BUTTON */
+
+.tools button:first-child {
+  background: rgba(14, 165, 164, 0.25);   /* teal tint */
+  color: white;
+  border: 1px solid rgba(14, 165, 164, 0.6);
+  box-shadow: none;
+  backdrop-filter: blur(6px);
+}
+
+.tools button:first-child:hover {
+  background: rgba(14, 165, 164, 0.35);
+}
+
+/* PRESENTATION BUTTON */
+
+.tools button:last-child {
+  background: rgba(30, 58, 138, 0.25);   /* blue tint */
+  color: white;
+  border: 1px solid rgba(30, 58, 138, 0.6);
+  box-shadow: none;
+  backdrop-filter: blur(6px);
+}
+
+.tools button:last-child:hover {
+  background: rgba(30, 58, 138, 0.35);
+}
 /* ============================= */
 /* TOOL BUTTONS                 */
 /* ============================= */
 
 .tools {
   margin-top: 20px;
-  display: flex;
+  display: none;
   gap: 12px;
   justify-content: center;
+}
+
+/* TOOL BUTTONS – subtle transparent style */
+
+.tools button {
+  background: rgba(255, 255, 255, 0.15);  /* soft transparent */
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: none;
+  backdrop-filter: blur(4px);
+}
+
+.tools button:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+}
+
+.tools.visible {
+  display: flex;
 }
 
 /* ============================= */
@@ -88,6 +157,9 @@ button.active-topic {
   display: flex;
   justify-content: center;
   width: 100%;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 120px;
 }
 
 .card {
@@ -113,6 +185,11 @@ button.active-topic {
   color: #666;
 }
 
+.card {
+  position: relative;
+  z-index: 1;
+}
+
 .hint {
   opacity: 0.35;
 }
@@ -131,18 +208,41 @@ button.active-topic {
 /* SWIPE INDICATOR              */
 /* ============================= */
 
+/* ============================= */
+/* SWIPE INDICATOR              */
+/* ============================= */
+
 .swipe-indicator {
   position: fixed;
-  bottom: 70px;
-  font-size: 14px;
-  opacity: 0.6;
-  animation: fadeOut 4s forwards;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+
+  padding: 8px 18px;
+  border-radius: 20px;
+
+  background: rgba(0, 0, 0, 0.35);
+  color: rgba(255, 255, 255, 0.9);
+
+  backdrop-filter: blur(6px);
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: opacity 0.3s ease;
+
+  z-index: 10000;
+  pointer-events: none;
 }
 
-@keyframes fadeOut {
-  0% { opacity: 0.6; }
-  80% { opacity: 0.6; }
-  100% { opacity: 0; }
+/* Visible state (controlled by JS) */
+.swipe-indicator.visible {
+  opacity: 1;
+  visibility: visible;
 }
 
 /* ============================= */
@@ -198,10 +298,188 @@ button.active-topic {
   display: none;
 }
 
-.presentation-mode .card {
-  transform: scale(1.25);
+/* Desktop only scaling */
+@media (min-width: 768px) {
+  .presentation-mode .card {
+    transform: scale(1.25);
+  }
 }
 
 .presentation-mode .exit-btn {
   display: block;
+}
+
+/* 3D Flip Animation */
+
+.card {
+  perspective: 1000px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertical center */
+  align-items: center;       /* horizontal center */
+  text-align: center;
+
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.tap-hint {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+
+.follow-up {
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+/* ============================= */
+/* TOPIC ACTIVE MODE            */
+/* ============================= */
+
+/* Fade only topic buttons */
+
+body.topic-active #topic-list {
+  opacity: 0.4;
+ 
+}
+
+/* Presentation Mode Counter Fix */
+
+.presentation-mode .card-counter {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.85);
+  letter-spacing: 0.5px;
+  z-index: 1000;
+}
+
+.presentation-mode {
+  overflow: hidden;
+}
+
+body.presentation-mode .footer {
+  display: none;
+}
+
+/* NORMAL MODE */
+body {
+  overflow-x: hidden;
+}
+
+/* NORMAL TOPIC MODE */
+body.topic-active {
+  overflow-x: hidden;
+  overflow-y: auto;   /* allow scroll */
+  min-height: 100vh;
+}
+
+/* PRESENTATION MODE */
+body.presentation-mode {
+  overflow: hidden;   /* lock scroll for swipe */
+  height: 100vh;
+}
+.hidden {
+  display: none;
+}
+
+.follow-up {
+  margin-top: 20px;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.tap-hint {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+/* ============================= */
+/* MOBILE PRESENTATION MODE     */
+/* ============================= */
+
+@media (max-width: 600px) {
+
+  body.presentation-mode .branding,
+  body.presentation-mode #topic-list,
+  body.presentation-mode .tools {
+    display: none !important;
+  }
+
+  body.presentation-mode .card-container {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+
+  body.presentation-mode .card {
+    width: 100%;
+    max-width: none;
+    min-height: 100vh;
+    border-radius: 0;
+  }
+
+}
+
+.card {
+  background: white !important;
+}
+
+/* ============================= */
+/* MOBILE FULLSCREEN PRESENTATION */
+/* ============================= */
+
+@media (max-width: 600px) {
+
+  body.presentation-mode {
+    overflow: hidden;
+  }
+
+  /* Hide EVERYTHING except card + exit */
+  body.presentation-mode .branding,
+  body.presentation-mode .type-tabs,
+  body.presentation-mode #topic-list,
+  body.presentation-mode .tools,
+  body.presentation-mode .footer {
+    display: none !important;
+  }
+
+  body.presentation-mode .card-container {
+    position: fixed;
+    inset: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body.presentation-mode .card {
+    width: 100vw;
+    height: 100vh;
+    max-width: none;
+    min-height: 100vh;
+    border-radius: 0;
+    padding: 60px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  line-height: 1.3;
+}
+  }
+
+  body.presentation-mode .card-counter {
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+  }
+
 }
