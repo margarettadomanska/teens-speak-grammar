@@ -192,6 +192,7 @@ function setupTabs() {
   /* ---------------- RESET ---------------- */
 
   function resetCard() {
+document.body.classList.remove("topic-active");
     document.querySelector(".tools").classList.remove("visible");
 
     document.getElementById("card").innerHTML =
@@ -250,6 +251,12 @@ function setupTabs() {
 
 document.addEventListener("keydown", function (event) {
 
+// ESC → Exit presentation mode
+if (event.key === "Escape" && presentationMode) {
+  togglePresentation();
+  return;
+}
+
   // Don't trigger arrows if no topic selected
   if (!currentTopic) return;
 
@@ -274,3 +281,4 @@ document.addEventListener("keydown", function (event) {
   }
 
 });
+
