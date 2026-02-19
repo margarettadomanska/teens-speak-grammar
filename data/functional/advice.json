@@ -1,0 +1,252 @@
+[
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "School Life",
+  "main_question": "What advice would you give a teenager who feels nervous before an exam?",
+  "follow_up_question": "How can they stay calm and focused?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Friendship",
+  "main_question": "What advice would you give a teen who feels left out by their friends?",
+  "follow_up_question": "What could they do to improve the situation?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Social Media",
+  "main_question": "What advice would you give someone who receives negative comments online?",
+  "follow_up_question": "How should they deal with online hate?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Mental Health",
+  "main_question": "What advice would you give a teen who feels overwhelmed with homework?",
+  "follow_up_question": "How can they manage their time better?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Identity & Self-Confidence",
+  "main_question": "What advice would you give someone who compares themselves to influencers online?",
+  "follow_up_question": "Why is it important to accept yourself?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "School Life",
+  "main_question": "What advice would you give a student who is always late for school?",
+  "follow_up_question": "How could they improve their morning routine?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Exams",
+  "main_question": "What advice would you give someone who failed an important test?",
+  "follow_up_question": "How can they stay motivated?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Friendship",
+  "main_question": "What advice would you give a teen who is in a toxic friendship?",
+  "follow_up_question": "How can they recognise unhealthy behaviour?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Social Media",
+  "main_question": "What advice would you give someone who spends hours scrolling every day?",
+  "follow_up_question": "What healthier habits could they build instead?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Confidence",
+  "main_question": "What advice would you give someone who is afraid of giving a presentation?",
+  "follow_up_question": "What can help them feel more confident?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Family",
+  "main_question": "What advice would you give a teen who argues a lot with their parents?",
+  "follow_up_question": "How can they improve communication at home?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Online Safety",
+  "main_question": "What advice would you give someone who shares too much personal information online?",
+  "follow_up_question": "Why is digital safety important?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Time Management",
+  "main_question": "What advice would you give a student who leaves homework until the last minute?",
+  "follow_up_question": "How can they organise their tasks better?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Peer Pressure",
+  "main_question": "What advice would you give someone who feels pressured to fit in?",
+  "follow_up_question": "How can they stay true to themselves?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Body Image",
+  "main_question": "What advice would you give a teen who feels insecure about their appearance?",
+  "follow_up_question": "How can they build self-confidence?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Gaming",
+  "main_question": "What advice would you give someone who spends too much time playing video games?",
+  "follow_up_question": "How can they balance gaming and school?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Relationships",
+  "main_question": "What advice would you give someone who is nervous about their first relationship?",
+  "follow_up_question": "What is important in a healthy relationship?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Bullying",
+  "main_question": "What advice would you give someone who is being bullied at school?",
+  "follow_up_question": "Who should they talk to for help?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Future Plans",
+  "main_question": "What advice would you give a teen who doesn’t know what career they want?",
+  "follow_up_question": "How can they explore different options?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Part-Time Jobs",
+  "main_question": "What advice would you give someone starting their first part-time job?",
+  "follow_up_question": "What skills are important in a first job?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Sleep",
+  "main_question": "What advice would you give a teen who goes to bed very late every night?",
+  "follow_up_question": "How does sleep affect school performance?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Group Projects",
+  "main_question": "What advice would you give someone who has lazy teammates in a group project?",
+  "follow_up_question": "How can they solve the problem fairly?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Confidence",
+  "main_question": "What advice would you give someone who is afraid of trying something new?",
+  "follow_up_question": "Why is it important to step out of your comfort zone?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Influencers",
+  "main_question": "What advice would you give someone who wants to become an influencer?",
+  "follow_up_question": "What challenges might they face?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Functional Language",
+  "level": "B1",
+  "topic": "Giving Advice",
+  "category": "Hobbies",
+  "main_question": "What advice would you give someone who wants to start a new hobby but feels shy?",
+  "follow_up_question": "How can hobbies improve mental health?",
+  "free": false,
+  "teacher_default": true
+}
+]
