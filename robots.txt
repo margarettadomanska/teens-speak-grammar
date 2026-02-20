@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://teens-speak-grammar.vercel.app/sitemap.xml
