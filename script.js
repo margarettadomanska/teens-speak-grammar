@@ -69,7 +69,7 @@ function selectTopic(topic) {
   currentIndex = 0;
   showCard();
 
-  document.querySelector(".tools").style.display = "flex";
+document.querySelector(".tools").classList.add("visible");
 
   document.body.classList.add("topic-active");
 
@@ -78,6 +78,8 @@ const hint = document.querySelector(".swipe-indicator");
 if (hint) {
   hint.classList.add("visible");
 }
+
+  showPresentationBanner();
 
 }
 
@@ -168,19 +170,29 @@ function togglePresentation() {
   presentationMode = !presentationMode;
   document.body.classList.toggle("presentation-mode");
 
+if (window.updateSwipeMode) {
+  window.updateSwipeMode();
+}
+  
+if (presentationMode) {
+    window.scrollTo(0, 0);
+  }
+
+  if (presentationMode) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "auto";
+  }
+
   const exitBtn = document.getElementById("exit-btn");
+  const tools = document.querySelector(".tools");
+  const presentationButton = tools.querySelector("button:last-child");
+
   exitBtn.style.display = presentationMode ? "block" : "none";
 
-  // Reset swipe hint when entering presentation
-  if (presentationMode) {
-    swipeHintVisible = true;
-    const hint = document.querySelector(".swipe-indicator");
-    if (hint) hint.style.display = "block";
-  }
+  presentationButton.style.display = presentationMode ? "none" : "inline-block";
 }
 
-
-/* ---------------- TABS ---------------- */
 
 /* ---------------- TABS ---------------- */
 
@@ -228,49 +240,97 @@ document.body.classList.remove("topic-active");
 
   /* ---------------- SWIPE ---------------- */
 
-  function setupSwipe() {
-    const card = document.getElementById("card");
-    const hammer = new Hammer(card);
+function setupSwipe() {
+  const card = document.getElementById("card");
+  const hammer = new Hammer(card);
 
-    hammer.get("swipe").set({ direction: Hammer.DIRECTION_ALL });
+  hammer.get("swipe").set({ direction: Hammer.DIRECTION_ALL });
 
-    function hideSwipeHint() {
-      if (swipeHintVisible) {
-        const hint = document.querySelector(".swipe-indicator");
-     if (hint) hint.classList.remove("visible");
-        swipeHintVisible = false;
-      }
+  function hideSwipeHint() {
+    if (swipeHintVisible) {
+      const hint = document.querySelector(".swipe-indicator");
+      if (hint) hint.classList.remove("visible");
+      swipeHintVisible = false;
     }
-
-    hammer.on("swipeleft", () => {
-      hideSwipeHint();
-      nextCard();
-    });
-
-    hammer.on("swiperight", () => {
-      hideSwipeHint();
-      previousCard();
-    });
-
-    hammer.on("swipeup", () => {
-      hideSwipeHint();
-      nextCard();
-    });
-
-    hammer.on("swipedown", () => {
-      hideSwipeHint();
-      previousCard();
-    });
   }
 
-  /* ---------------- INIT ---------------- */
+hammer.on("swipeleft", () => {
+  hideSwipeHint();
+  hidePresentationBanner();
+  nextCard();
+});
 
- document.addEventListener("DOMContentLoaded", async () => {
+hammer.on("swiperight", () => {
+  hideSwipeHint();
+  hidePresentationBanner();
+  previousCard();
+});
+
+hammer.on("swipeup", () => {
+  hideSwipeHint();
+  hidePresentationBanner();
+  nextCard();
+});
+
+hammer.on("swipedown", () => {
+  hideSwipeHint();
+  hidePresentationBanner();
+  previousCard();
+});
+
+}
+  /* ---------------- INIT ---------------- */
+document.addEventListener("DOMContentLoaded", async () => {
   await loadQuestions();
   setupTabs();
   setupSwipe();
- 
+
+  /* -------- PRESENTATION BANNER -------- */
+
+  const tryBtn = document.getElementById("try-presentation-btn");
+  const closeBanner = document.getElementById("close-banner");
+
+  if (tryBtn && closeBanner) {
+    tryBtn.addEventListener("click", () => {
+      togglePresentation();
+      hidePresentationBanner();
+    });
+
+    closeBanner.addEventListener("click", hidePresentationBanner);
+  }
+
+  /* -------- HELP MODAL -------- */
+
+  const helpBtn = document.getElementById("help-btn");
+  const helpModal = document.getElementById("help-modal");
+  const closeHelpBtn = document.getElementById("close-help-btn");
+
+  if (helpBtn && helpModal && closeHelpBtn) {
+
+    helpBtn.addEventListener("click", () => {
+      helpModal.classList.remove("hidden");
+    });
+
+    closeHelpBtn.addEventListener("click", () => {
+      helpModal.classList.add("hidden");
+    });
+
+    // ESC closes help (but not presentation)
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !presentationMode) {
+        helpModal.classList.add("hidden");
+      }
+    });
+
+    // Click outside closes help
+    helpModal.addEventListener("click", (e) => {
+      if (e.target === helpModal) {
+        helpModal.classList.add("hidden");
+      }
+    });
+  }
 });
+
 /* ---------------- KEYBOARD NAVIGATION ---------------- */
 
 document.addEventListener("keydown", function (event) {
@@ -303,6 +363,62 @@ if (event.key === "Escape" && presentationMode) {
   if (event.key === "ArrowLeft" || event.key === "ArrowUp") {
     previousCard();
   }
+// SPACE → Reveal / Hide follow-up
+if (event.code === "Space") {
+  event.preventDefault();
+  event.stopPropagation();
+
+  const card = document.getElementById("card");
+  const followUp = card.querySelector(".follow-up");
+  const hint = card.querySelector(".tap-hint");
+
+  if (followUp) {
+    followUp.classList.toggle("hidden");
+
+    if (followUp.classList.contains("hidden")) {
+      hint.textContent = "Tap to reveal follow-up";
+    } else {
+      hint.textContent = "Tap to hide follow-up";
+    }
+  }
+}
+
+
+});
+
+/* ---------------- HELP MODAL ---------------- */
+
+
+
+function isMobile() {
+  return window.innerWidth <= 768;
+}
+
+function showPresentationBanner() {
+  if (!isMobile()) return;
+
+  const lastDismissed = localStorage.getItem("presentationBannerDismissedAt");
+
+  if (lastDismissed) {
+    const sevenDays = 7 * 24 * 60 * 60 * 1000;
+    const now = Date.now();
+
+    if (now - parseInt(lastDismissed) < sevenDays) {
+      return; // Still within 7 days → don't show
+    }
+  }
+
+  const banner = document.getElementById("presentation-banner");
+  if (banner) banner.classList.remove("hidden");
+}
+
+function hidePresentationBanner() {
+  const banner = document.getElementById("presentation-banner");
+  if (banner) banner.classList.add("hidden");
+
+  // Save timestamp instead of just "true"
+  localStorage.setItem("presentationBannerDismissedAt", Date.now().toString());
+}
 
 });
 
