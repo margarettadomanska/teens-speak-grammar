@@ -1,4 +1,4 @@
-let swipeHintVisible = true;
+let swipeHintVisible = false;
 let allQuestions = [];
 let filteredQuestions = [];
 let currentIndex = 0;
@@ -73,10 +73,11 @@ function selectTopic(topic) {
 
   document.body.classList.add("topic-active");
 
-  // Show swipe hint when topic is selected
-  swipeHintVisible = true;
-  const hint = document.querySelector(".swipe-indicator");
-  if (hint) hint.style.display = "block";
+swipeHintVisible = true;
+const hint = document.querySelector(".swipe-indicator");
+if (hint) {
+  hint.classList.add("visible");
+}
 
 }
 
@@ -118,22 +119,45 @@ function showCard() {
 
 /* ---------------- NAVIGATION ---------------- */
 
+
 function nextCard() {
   if (!filteredQuestions.length) return;
+
+ if (swipeHintVisible) {
+  const hint = document.querySelector(".swipe-indicator");
+  if (hint) hint.classList.remove("visible");
+  swipeHintVisible = false;
+}
+
   currentIndex = (currentIndex + 1) % filteredQuestions.length;
   showCard();
 }
 
 function previousCard() {
   if (!filteredQuestions.length) return;
+
+if (swipeHintVisible) {
+  const hint = document.querySelector(".swipe-indicator");
+  if (hint) hint.classList.remove("visible");
+  swipeHintVisible = false;
+}
+
   currentIndex =
     (currentIndex - 1 + filteredQuestions.length) %
     filteredQuestions.length;
+
   showCard();
 }
 
 function randomCard() {
   if (!filteredQuestions.length) return;
+
+ if (swipeHintVisible) {
+  const hint = document.querySelector(".swipe-indicator");
+  if (hint) hint.classList.remove("visible");
+  swipeHintVisible = false;
+}
+
   currentIndex = Math.floor(Math.random() * filteredQuestions.length);
   showCard();
 }
@@ -213,7 +237,7 @@ document.body.classList.remove("topic-active");
     function hideSwipeHint() {
       if (swipeHintVisible) {
         const hint = document.querySelector(".swipe-indicator");
-        if (hint) hint.style.display = "none";
+     if (hint) hint.classList.remove("visible");
         swipeHintVisible = false;
       }
     }
@@ -281,4 +305,5 @@ if (event.key === "Escape" && presentationMode) {
   }
 
 });
+
 
