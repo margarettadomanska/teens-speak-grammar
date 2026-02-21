@@ -17,6 +17,7 @@ body {
   color: white;
   text-align: center;
 }
+
 /* ============================= */
 /* LOGO / BRANDING              */
 /* ============================= */
@@ -435,3 +436,19 @@ body.presentation-mode .tools {
 
 }
 
+/* ============================= */
+/* FOOTER SEO TEXT – SOFT       */
+/* ============================= */
+
+.footer-seo {
+  max-width: 520px;      /* narrower = more balanced lines */
+  margin: 0 auto 12px auto;
+  font-size: 11.5px;
+  line-height: 1.6;
+  opacity: 0.45;         /* softer */
+  text-align: center;
+}
+
+.footer-title {
+  font-weight: 500;
+}
