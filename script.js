@@ -23,10 +23,49 @@ async function loadQuestions() {
     const passiveData = await passiveResponse.json();
     allData = allData.concat(passiveData);
 
+try {
+  const gerundsResponse = await fetch("data/grammar/gerunds-infinitives.json");
+
+  if (gerundsResponse.ok) {
+    const gerundsData = await gerundsResponse.json();
+    allData = allData.concat(gerundsData);
+  } else {
+    console.warn("Gerunds file not found");
+  }
+
+} catch (err) {
+  console.warn("Gerunds file error:", err);
+}
+
     // 🔥 ADD THIS BLOCK HERE
     const adviceResponse = await fetch("data/functional/advice.json");
     const adviceData = await adviceResponse.json();
     allData = allData.concat(adviceData);
+
+try {
+  const opinionResponse = await fetch("data/functional/giving-opinion.json");
+
+  if (opinionResponse.ok) {
+    const opinionData = await opinionResponse.json();
+    allData = allData.concat(opinionData);
+  } else {
+    console.warn("Giving Opinion file not found");
+  }
+
+} catch (err) {
+  console.warn("Giving Opinion file error:", err);
+}
+
+try {
+  const suggestionsResponse = await fetch("data/functional/making-suggestions.json");
+
+  if (suggestionsResponse.ok) {
+    const suggestionsData = await suggestionsResponse.json();
+    allData = allData.concat(suggestionsData);
+  }
+} catch (err) {
+  console.warn("Making Suggestions file error:", err);
+}
 
     allQuestions = allData;
 

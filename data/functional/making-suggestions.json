@@ -1,0 +1,242 @@
+[
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "School",
+    "main_question": "Your class wants to improve school life. What should you suggest changing?",
+    "follow_up_question": "Why would that be a good idea?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Weekend Plans",
+    "main_question": "Your friends are bored this weekend. What could you suggest doing?",
+    "follow_up_question": "Why would they enjoy that?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Travel",
+    "main_question": "A tourist is visiting your city. What would you suggest they see first?",
+    "follow_up_question": "Why is that place special?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Health",
+    "main_question": "A friend feels stressed about exams. What would you suggest?",
+    "follow_up_question": "How could that help them?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Technology",
+    "main_question": "Someone spends too much time on their phone. What might you suggest?",
+    "follow_up_question": "What benefits could that bring?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Environment",
+    "main_question": "Your school wants to be more eco-friendly. What should be introduced?",
+    "follow_up_question": "How would that improve the school?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Friendship",
+    "main_question": "Two friends are arguing. What would you suggest they do?",
+    "follow_up_question": "Why is communication important?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Study",
+    "main_question": "A classmate wants to improve their English. What could you suggest?",
+    "follow_up_question": "Which method might be most effective?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Events",
+    "main_question": "Your school is planning a special event. What activities should be included?",
+    "follow_up_question": "Why would students like them?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Career",
+    "main_question": "A friend doesn’t know what career to choose. What would you suggest they do?",
+    "follow_up_question": "How could that help them decide?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "School Life",
+    "main_question": "Your school cafeteria wants new menu ideas. What would you suggest adding?",
+    "follow_up_question": "Why would students like that option?",
+    "free": true,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Travel",
+    "main_question": "A friend is visiting your country for the first time. What should they pack?",
+    "follow_up_question": "Why would that be important?",
+    "free": true,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Exams",
+    "main_question": "A classmate feels nervous before an important exam. What could you suggest to help them relax?",
+    "follow_up_question": "How might that reduce stress?",
+    "free": true,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Technology",
+    "main_question": "Your parents don’t understand social media. What would you suggest they learn first?",
+    "follow_up_question": "Why would that be helpful?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Environment",
+    "main_question": "Your town wants to reduce plastic use. What should be introduced?",
+    "follow_up_question": "How would that improve the situation?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Friendship",
+    "main_question": "A friend feels left out in a group. What might you suggest they do?",
+    "follow_up_question": "How could that improve things?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Study",
+    "main_question": "Someone wants to improve their vocabulary quickly. What methods would you suggest?",
+    "follow_up_question": "Why would those methods work?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Free Time",
+    "main_question": "Your friend says they’re always bored at home. What could you suggest?",
+    "follow_up_question": "Why might that be more interesting?",
+    "free": true,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Health",
+    "main_question": "A friend wants to live a healthier lifestyle. What would you recommend they start with?",
+    "follow_up_question": "Why is that a good first step?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Career",
+    "main_question": "Someone isn’t sure what job they want in the future. What should they try doing?",
+    "follow_up_question": "How could that help them decide?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "School Projects",
+    "main_question": "Your group project isn’t working well. What could you suggest to improve teamwork?",
+    "follow_up_question": "Why would that make a difference?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Entertainment",
+    "main_question": "Your family wants to watch a film together. What would you suggest choosing?",
+    "follow_up_question": "Why would everyone enjoy it?",
+    "free": true,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Money",
+    "main_question": "A friend spends too much money on clothes. What might you suggest?",
+    "follow_up_question": "How could that help them save money?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Making Suggestions",
+    "category": "Digital Life",
+    "main_question": "Someone wants to reduce screen time. What strategies would you suggest?",
+    "follow_up_question": "Which strategy would be easiest to start with?",
+    "free": false,
+    "teacher_default": true
+  }
+]

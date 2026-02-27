@@ -1,0 +1,242 @@
+[
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "School",
+    "main_question": "Do you think homework should be reduced for teenagers?",
+    "follow_up_question": "Why do you feel that way?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Social Media",
+    "main_question": "In your opinion, is social media more positive or negative for teens?",
+    "follow_up_question": "What makes you think so?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Technology",
+    "main_question": "Do you believe AI will improve students’ learning?",
+    "follow_up_question": "Why or why not?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "School Rules",
+    "main_question": "Should mobile phones be allowed in class?",
+    "follow_up_question": "What are the advantages or disadvantages?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Entertainment",
+    "main_question": "Do you think streaming services are better than traditional TV?",
+    "follow_up_question": "Why do you prefer one over the other?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Fashion",
+    "main_question": "Are fashion trends too important for teenagers?",
+    "follow_up_question": "What’s your personal view?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Environment",
+    "main_question": "Do you think young people are doing enough to protect the environment?",
+    "follow_up_question": "What else could be done?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Education",
+    "main_question": "Do you think exams are the best way to measure students’ ability?",
+    "follow_up_question": "What could be a better alternative?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Education",
+    "main_question": "Should students be allowed to choose more of their school subjects?",
+    "follow_up_question": "Why do you agree or disagree?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Social Media",
+    "main_question": "Do influencers have too much influence on teenagers?",
+    "follow_up_question": "What makes you think that?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Technology",
+    "main_question": "Is it a good idea for children to have smartphones at a young age?",
+    "follow_up_question": "Why or why not?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "AI & Future",
+    "main_question": "Do you think robots will replace many jobs in the future?",
+    "follow_up_question": "How do you feel about that possibility?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Environment",
+    "main_question": "Should governments make stronger environmental laws?",
+    "follow_up_question": "What impact could that have?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "School Life",
+    "main_question": "Do you think school starts too early in the morning?",
+    "follow_up_question": "What would be a better schedule?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Health",
+    "main_question": "Is it important for teenagers to exercise regularly?",
+    "follow_up_question": "Why do you believe that?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Entertainment",
+    "main_question": "Are video games a waste of time?",
+    "follow_up_question": "What’s your personal experience?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Culture",
+    "main_question": "Is learning English essential for young people today?",
+    "follow_up_question": "Why do you think so?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Fashion",
+    "main_question": "Should schools have uniforms?",
+    "follow_up_question": "What are the advantages and disadvantages?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Work",
+    "main_question": "Do you think teenagers should have part-time jobs?",
+    "follow_up_question": "What skills could they learn from that experience?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Travel",
+    "main_question": "Is travelling more important than buying material things?",
+    "follow_up_question": "Why do you feel that way?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Friendship",
+    "main_question": "Is it better to have many friends or a few close friends?",
+    "follow_up_question": "What’s your view?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Future",
+    "main_question": "Will online learning become more popular than traditional classrooms?",
+    "follow_up_question": "Why do you think that might happen?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Media",
+    "main_question": "Is it important to check if news is true before sharing it?",
+    "follow_up_question": "Why is that important?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Giving Opinion",
+    "category": "Personal Development",
+    "main_question": "Is failure an important part of learning?",
+    "follow_up_question": "What can people learn from failure?",
+    "free": false,
+    "teacher_default": true
+  }
+]
