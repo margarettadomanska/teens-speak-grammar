@@ -23,7 +23,6 @@ body {
 /* ============================= */
 
 .branding {
-  margin-top: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,6 +33,66 @@ body {
   width: 95%;
   height: auto;
   filter: drop-shadow(0 10px 25px rgba(0,0,0,0.35));
+}
+
+/* ============================= */
+/* TOP BAR                      */
+/* ============================= */
+
+.top-bar {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto 0 auto;
+  padding: 0 40px;
+}
+
+.top-actions button {
+  padding: 8px 18px;
+  border-radius: 22px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.top-actions {
+  position: absolute;
+  right: 40px;
+  top: 56px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+/* ============================= */
+/* ACTION GROUP (Slider Style)  */
+/* ============================= */
+
+.action-group {
+  display: flex;
+  background: none;
+  backdrop-filter: none;
+  padding: 0;
+  gap: 6px;
+}
+
+.action-group button {
+  box-shadow: none;
+  border-radius: 18px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Utility Help Button (Override Global Button Style) */
+#help-btn {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.35);
+  color: white;
+  box-shadow: none;
+}
+
+#help-btn:hover {
+  background: rgba(255,255,255,0.18);
 }
 
 /* ============================= */
@@ -137,6 +196,87 @@ button.active-topic {
 .tools button:last-child {
   background: rgba(30,58,138,0.25);
   border: 1px solid rgba(30,58,138,0.6);
+}
+
+/* ============================= */
+/* INSTANT QUESTION BUTTON      */
+/* ============================= */
+
+.instant-container {
+  margin: 15px 0 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  #instant-btn {
+    display: none !important;
+  }
+}
+
+
+* INSTANT QUESTION BUTTON      */
+/* ============================= */
+
+.instant-container {
+  margin: 15px 0 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Desktop only */
+@media (max-width: 768px) {
+  .instant-container {
+    display: none !important;
+  }
+}
+
+#instant-btn {
+  padding: 5px 12px;
+  font-size: 13px;
+  border-radius: 16px;
+
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.35);
+  color: rgba(255,255,255,0.85);
+
+  box-shadow: none;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+#instant-btn:hover {
+  background: rgba(255,255,255,0.12);
+  color: white;
+}
+.instant-container.used {
+  opacity: 0.2;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+
+.instant-container.used {
+  opacity: 0.2;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+@media (max-width: 768px) {
+
+  .top-actions {
+    position: static;
+  }
+
+  #help-btn {
+    position: fixed;
+    top: 18px;
+    right: 18px;
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 14px;
+    z-index: 3000;
+  }
+
 }
 
 /* ============================= */
@@ -282,7 +422,8 @@ body.presentation-mode #topic-list,
 body.presentation-mode .swipe-indicator,
 body.presentation-mode .footer,
 body.presentation-mode #help-btn,
-body.presentation-mode .type-tabs {
+body.presentation-mode .type-tabs,
+body.presentation-mode #instant-btn {
   display: none !important;
 }
 
@@ -318,20 +459,6 @@ body.presentation-mode .card {
 /* HELP MODAL                   */
 /* ============================= */
 
-#help-btn {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 3000;
-  padding: 8px 14px;
-  border-radius: 20px;
-  border: none;
-  background: white;
-  color: #333;
-  font-size: 14px;
-  font-weight: 500;
-  cursor: pointer;
-}
 
 .help-modal {
   position: fixed;
@@ -357,7 +484,11 @@ body.presentation-mode .card {
   text-align: left;
 }
 
-/* Mobile presentation */
+
+/* ============================= */
+/* MOBILE PRESENTATION           */
+/* ============================= */
+
 @media (max-width: 768px) {
 
   body.presentation-mode {
@@ -375,65 +506,181 @@ body.presentation-mode .card {
   }
 
   body.presentation-mode .card {
-    width: 100dvw;
+    width: 100vw;
     height: 100vh;
     border-radius: 0;
     padding: 60px 25px;
+    box-shadow: none;
   }
 
-body.presentation-mode .tools {
-  position: fixed;
-  bottom: 25px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex !important;
-  z-index: 2000;
+  body.presentation-mode .tools {
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex !important;
+    z-index: 2000;
+  }
+
 }
 
+/* ============================= */
+/* MOBILE HEADER FIX             */
+/* ============================= */
 
-.presentation-banner {
+@media (max-width: 768px) {
+
+  .top-bar {
+    position: static;
+    padding: 0 20px;
+    margin-top: 15px;
+  }
+
+  .top-actions {
+    position: static;
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .action-group {
+    justify-content: center;
+  }
+
+  .logo {
+  max-width: 400px;
+  width: 98%;
+filter: drop-shadow(0 6px 18px rgba(0,0,0,0.35));
+}
+
+}
+
+/* ============================= */
+/* TIMER                         */
+/* ============================= */
+
+.timer-widget {
   position: fixed;
-  bottom: 70px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
-  max-width: 420px;
+  bottom: 30px;
+  right: 25px;
+  z-index: 2500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  background: rgba(0, 0, 0, 0.8);
-  color: white;
-  padding: 14px 16px;
-  border-radius: 16px;
+/* Circle */
+
+.timer-circle {
+  width: 96px;
+  height: 96px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 50%;
+
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(6px);
+
+  box-shadow:
+    0 6px 18px rgba(0,0,0,0.25),
+    inset 0 0 0 1px rgba(255,255,255,0.12);
+
+  transition: transform 0.2s ease;
+}
+
+.timer-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.timer-bg {
+  stroke: rgba(255,255,255,0.12);
+  stroke-width: 4;
+}
+
+.timer-progress {
+  stroke: rgba(255,255,255,0.7);
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+
+.timer-bg,
+.timer-progress {
+  fill: none;
+}
+
+#timer-display {
+  position: absolute;
+  inset: 0;
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
+  justify-content: center;
 
-  font-size: 0.85rem;
-  z-index: 3000;
-
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-}
-
-.presentation-banner button {
-  background: #0EA5A4;
-  border: none;
-  border-radius: 14px;
-  padding: 6px 12px;
   font-size: 0.8rem;
-  color: white;
-  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  color: rgba(255,255,255,0.85);
 }
 
-.close-banner {
-  cursor: pointer;
-  opacity: 0.7;
+.timer-label {
+  opacity: 0.85;
 }
 
-.hidden {
-  display: none;
+#timer-display .icon {
+  font-size: 1.6rem;
+  margin-bottom: 4px;
 }
 
+/* Panel */
+
+.timer-panel {
+  margin-bottom: 14px;
+  display: flex;
+  gap: 10px;
+
+  padding: 8px 14px;
+  border-radius: 999px; /* FULL pill shape */
+
+  background: rgba(0, 0, 0, 0.14); /* subtle depth */
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.timer-panel button {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 999px;
+
+  background: rgba(255,255,255,0.92); /* more solid */
+  color: #24427A;
+box-shadow: 0 2px 6px rgba(0,0,0,0.15); 
+}
+
+.timer-panel button:hover {
+  background: white;
+}
+
+/* Presentation adjustment */
+
+body.presentation-mode .timer-widget {
+  bottom: 40px;
+  right: 40px;
+}
+
+/* ============================= */
+/* HIDE TIMER ON MOBILE NORMAL MODE */
+/* ============================= */
+
+@media (max-width: 768px) {
+  body:not(.presentation-mode) .timer-widget {
+    display: none !important;
+  }
 }
 
 /* ============================= */
@@ -452,3 +699,15 @@ body.presentation-mode .tools {
 .footer-title {
   font-weight: 500;
 }
+
+/* ============================= */
+/* HIDE TIMER ON MOBILE MODE Completely */
+/* ============================= */
+
+
+@media (max-width: 768px) {
+  .timer-widget {
+    display: none !important;
+  }
+}
+
