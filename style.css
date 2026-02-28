@@ -116,10 +116,6 @@ body.topic-active {
   min-height: 100vh;
 }
 
-body.topic-active #topic-list {
-  opacity: 0.4;
-}
-
 #topic-list.visible {
   display: flex;
 }
@@ -196,6 +192,26 @@ button.active-topic {
 .tools button:last-child {
   background: rgba(30,58,138,0.25);
   border: 1px solid rgba(30,58,138,0.6);
+}
+
+/* ============================= */
+/* CHANGE TOPIC BUTTON           */
+/* ============================= */
+
+.change-topic {
+  margin-top: 20px;
+  background: transparent;
+  border: none;
+  color: rgba(255,255,255,0.85);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.change-topic:hover {
+  text-decoration: underline;
+  transform: none;
 }
 
 /* ============================= */
@@ -421,6 +437,7 @@ button.active-topic {
 body.presentation-mode #topic-list,
 body.presentation-mode .swipe-indicator,
 body.presentation-mode .footer,
+body.presentation-mode .change-topic,
 body.presentation-mode #help-btn,
 body.presentation-mode .type-tabs,
 body.presentation-mode #instant-btn {
@@ -710,4 +727,6 @@ body.presentation-mode .timer-widget {
     display: none !important;
   }
 }
+
+
 
