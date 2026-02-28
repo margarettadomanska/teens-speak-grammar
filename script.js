@@ -203,6 +203,27 @@ function randomCard() {
   showCard();
 }
 
+function instantQuestion() {
+
+  if (!allQuestions.length) return;
+
+  filteredQuestions = [...allQuestions]
+    .sort(() => Math.random() - 0.5);
+
+  currentIndex = 0;
+  currentTopic = "Instant";
+
+  showCard();
+
+  document.querySelector(".tools").classList.add("visible");
+  document.body.classList.add("topic-active");
+
+  const instantContainer = document.getElementById("instant-container");
+  if (instantContainer) {
+    instantContainer.classList.add("used");
+  }
+}
+
 /* ---------------- PRESENTATION MODE ---------------- */
 
 function togglePresentation() {
@@ -229,10 +250,9 @@ if (presentationMode) {
 
   exitBtn.style.display = presentationMode ? "block" : "none";
 
-  presentationButton.style.display = presentationMode ? "none" : "inline-block";
-}
+    presentationButton.style.display = presentationMode ? "none" : "inline-block";
 
-
+  }
 /* ---------------- TABS ---------------- */
 
 function setupTabs() {
@@ -248,6 +268,9 @@ function setupTabs() {
     renderTopics();
     resetCard();
 
+const instantContainer = document.getElementById("instant-container");
+if (instantContainer) instantContainer.style.display = "none";
+
     document.getElementById("topic-list").classList.add("visible");
   };
 
@@ -259,6 +282,9 @@ function setupTabs() {
 
     renderTopics();
     resetCard();
+
+const instantContainer = document.getElementById("instant-container");
+if (instantContainer) instantContainer.style.display = "none";
 
     document.getElementById("topic-list").classList.add("visible");
   };
@@ -458,4 +484,119 @@ function hidePresentationBanner() {
   // Save timestamp instead of just "true"
   localStorage.setItem("presentationBannerDismissedAt", Date.now().toString());
 }
+
+/* ---------------- TIMER ---------------- */
+
+let timerInterval = null;
+let totalTime = 0;
+let remainingTime = 0;
+
+const timerSound = new Audio("sounds/timer-end.mp3");
+timerSound.volume = 0.4; // adjust 0.0–1.0
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const timerCircle = document.getElementById("timer-circle");
+  const timerPanel = document.getElementById("timer-panel");
+
+
+ timerCircle.addEventListener("click", () => {
+  if (timerInterval) {
+    stopTimer();
+  } else {
+    const isHidden = timerPanel.style.display === "none";
+    timerPanel.style.display = isHidden ? "flex" : "none";
+  }
+});
+
+});  
+
+
+function startTimer(seconds) {
+
+  const timerPanel = document.getElementById("timer-panel");
+  const timerDisplay = document.getElementById("timer-display");
+
+  timerPanel.style.display = "none";
+
+  clearInterval(timerInterval);
+
+  totalTime = seconds;
+  remainingTime = seconds;
+
+document.body.classList.add("timer-running");
+
+  updateTimerUI();
+
+  timerInterval = setInterval(() => {
+    remainingTime--;
+    updateTimerUI();
+
+    if (remainingTime <= 0) {
+      finishTimer();
+    }
+
+  }, 1000);
+}
+
+function stopTimer() {
+  clearInterval(timerInterval);
+  timerInterval = null;
+
+  resetTimerUI();  
+}
+
+function finishTimer() {
+  clearInterval(timerInterval);
+  timerInterval = null;
+
+  const timerDisplay = document.getElementById("timer-display");
+
+  timerDisplay.textContent = "✔";
+
+  // 🔊 PLAY SOUND
+  timerSound.currentTime = 0; // reset if replayed
+  timerSound.play();
+
+  setTimeout(() => {
+    resetTimerUI();
+  }, 1500);
+}
+
+function resetTimerUI() {
+
+  const progress = document.getElementById("timer-progress");
+  const timerDisplay = document.getElementById("timer-display");
+  const timerPanel = document.getElementById("timer-panel");
+
+  progress.style.strokeDashoffset = 100;
+  progress.style.stroke = "rgba(255,255,255,0.85)";
+
+  timerDisplay.textContent = "Timer";
+
+  timerPanel.style.display = "flex";  // 👈 THIS is what makes them reappear
+
+  document.body.classList.remove("timer-running");
+}
+
+function updateTimerUI() {
+
+  const progress = document.getElementById("timer-progress");
+  const timerDisplay = document.getElementById("timer-display");
+
+  const percent = remainingTime / totalTime;
+  const offset = 100 - percent * 100;
+
+  progress.style.strokeDashoffset = offset;
+
+  timerDisplay.textContent = remainingTime + "s";
+
+  // Gentle pulse when under 5 seconds
+ if (remainingTime <= 5) {
+  progress.style.stroke = "#38BDF8"; // bright blue accent
+} else {
+  progress.style.stroke = "rgba(255,255,255,0.85)";
+}
+}
+
 
