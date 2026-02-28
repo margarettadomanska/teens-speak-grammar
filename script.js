@@ -108,6 +108,12 @@ function selectTopic(topic) {
   currentIndex = 0;
   showCard();
 
+// Hide topic list
+document.getElementById("topic-list").classList.remove("visible");
+
+// Show change topic button
+document.getElementById("change-topic-btn").classList.remove("hidden");
+
 document.querySelector(".tools").classList.add("visible");
 
   document.body.classList.add("topic-active");
@@ -302,6 +308,20 @@ document.body.classList.remove("topic-active");
     document.getElementById("card-counter").textContent = "";
   }
 
+function changeTopic() {
+  currentTopic = null;
+  filteredQuestions = [];
+  currentIndex = 0;
+
+  resetCard();
+
+  // Show topic list again
+  document.getElementById("topic-list").classList.add("visible");
+
+  // Hide change topic button
+  document.getElementById("change-topic-btn").classList.add("hidden");
+}
+
 
   /* ---------------- SWIPE ---------------- */
 
@@ -349,6 +369,11 @@ document.addEventListener("DOMContentLoaded", async () => {
   await loadQuestions();
   setupTabs();
   setupSwipe();
+
+const changeBtn = document.getElementById("change-topic-btn");
+if (changeBtn) {
+  changeBtn.addEventListener("click", changeTopic);
+}
 
   /* -------- PRESENTATION BANNER -------- */
 
@@ -598,5 +623,3 @@ function updateTimerUI() {
   progress.style.stroke = "rgba(255,255,255,0.85)";
 }
 }
-
-
