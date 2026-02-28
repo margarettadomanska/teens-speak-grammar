@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
 
 <meta name="google-site-verification" content="fWjkz4qVMjz4VwM3YCN5JtOaVEbmCEohZjbTPSED9i0" />
-  
+
   <meta name="google-site-verification" content="ltpLrJgkxgkSWIdbOIQBAs649NTJRQuco6nBgXvbTUc" />
 
   <!-- Google tag (gtag.js) -->
@@ -44,18 +44,28 @@
   <script src="https://hammerjs.github.io/dist/hammer.min.js"></script>
 </head>
 
-<body>
+<!-- TOP BAR -->
+<div class="top-bar">
 
   <!-- Logo -->
   <div class="branding">
     <img src="logo.png" class="logo" alt="Teens Speak Grammar Logo">
   </div>
 
-  <!-- Grammar / Functional Tabs -->
-  <div class="type-tabs">
-    <button id="grammar-tab" class="active-tab">Grammar</button>
-    <button id="functional-tab">Functional Language</button>
+  <div class="top-actions">
+  <div class="action-group">
+    <button id="instant-btn" onclick="instantQuestion()">
+      Instant Question
+    </button>
+    <button id="help-btn" class="help-btn">Help</button>
   </div>
+</div>
+
+<!-- Grammar / Functional Tabs -->
+<div class="type-tabs">
+  <button id="grammar-tab" class="active-tab">Grammar</button>
+  <button id="functional-tab">Functional Language</button>
+</div>
 
   <!-- Topics -->
   <div id="topic-list"></div>
@@ -112,9 +122,6 @@
     ✕ Exit
   </button>
 
-<!-- Help Button -->
-<button id="help-btn" class="help-btn">Help</button>
-
 <!-- Help Modal -->
 <div id="help-modal" class="help-modal hidden">
   <div class="help-content">
@@ -139,9 +146,40 @@
   </div>
 </div>
 
+<!-- TIMER WIDGET -->
+<div id="timer-widget" class="timer-widget">
+
+  <div id="timer-circle" class="timer-circle">
+    <svg class="timer-svg" viewBox="0 0 36 36">
+      <path
+        class="timer-bg"
+        d="M18 2 a 16 16 0 0 1 0 32 a 16 16 0 0 1 0 -32"
+      />
+      <path
+        id="timer-progress"
+        class="timer-progress"
+        d="M18 2 a 16 16 0 0 1 0 32 a 16 16 0 0 1 0 -32"
+      />
+    </svg>
+
+    <span id="timer-display">
+  <span class="timer-label">TIMER</span>
+</span>
+
+  </div>
+
+  <div id="timer-panel" class="timer-panel hidden">
+    <button onclick="startTimer(30)">30s</button>
+    <button onclick="startTimer(60)">1m</button>
+    <button onclick="startTimer(120)">2m</button>
+  </div>
+
+</div>
+
   <!-- Script -->
   <script src="script.js"></script>
 
 </body>
 </html>
+
 
