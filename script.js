@@ -522,19 +522,25 @@ timerSound.volume = 0.4; // adjust 0.0–1.0
 document.addEventListener("DOMContentLoaded", () => {
 
   const timerCircle = document.getElementById("timer-circle");
-  const timerPanel = document.getElementById("timer-panel");
+  const timerWidget = document.querySelector(".timer-widget");
 
+  // Start collapsed by default
+  timerWidget.classList.add("collapsed");
 
- timerCircle.addEventListener("click", () => {
-  if (timerInterval) {
-    stopTimer();
-  } else {
-    const isHidden = timerPanel.style.display === "none";
-    timerPanel.style.display = isHidden ? "flex" : "none";
-  }
+  timerCircle.addEventListener("click", () => {
+
+    // If timer is running → stop it
+    if (timerInterval) {
+      stopTimer();
+      return;
+    }
+
+    // Otherwise toggle collapsed state
+    timerWidget.classList.toggle("collapsed");
+
+  });
+
 });
-
-});  
 
 
 function startTimer(seconds) {
@@ -542,7 +548,7 @@ function startTimer(seconds) {
   const timerPanel = document.getElementById("timer-panel");
   const timerDisplay = document.getElementById("timer-display");
 
-  timerPanel.style.display = "none";
+  document.querySelector(".timer-widget").classList.add("collapsed");
 
   clearInterval(timerInterval);
 
@@ -599,7 +605,6 @@ function resetTimerUI() {
 
   timerDisplay.textContent = "Timer";
 
-  timerPanel.style.display = "flex";  // 👈 THIS is what makes them reappear
 
   document.body.classList.remove("timer-running");
 }
@@ -623,3 +628,4 @@ function updateTimerUI() {
   progress.style.stroke = "rgba(255,255,255,0.85)";
 }
 }
+
