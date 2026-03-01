@@ -236,6 +236,21 @@ function togglePresentation() {
   presentationMode = !presentationMode;
   document.body.classList.toggle("presentation-mode");
 
+  // 📱 Fullscreen ONLY on mobile
+  if (isMobile()) {
+
+    if (presentationMode) {
+      if (document.documentElement.requestFullscreen) {
+        document.documentElement.requestFullscreen();
+      }
+    } else {
+      if (document.fullscreenElement) {
+        document.exitFullscreen();
+      }
+    }
+
+  }
+
 if (window.updateSwipeMode) {
   window.updateSwipeMode();
 }
