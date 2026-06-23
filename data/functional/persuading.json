@@ -1,0 +1,302 @@
+[
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Friends",
+    "main_question": "Your friend says they don't want to come to your birthday party. What would you say?",
+    "follow_up_question": "Try starting with: \"Come on...\" or \"It'll be fun because...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "School",
+    "main_question": "Your class wants a school trip, but your teacher isn't convinced. What would you say?",
+    "follow_up_question": "Try starting with: \"I really think...\" or \"It would be a great opportunity because...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Films",
+    "main_question": "Your friend says your favourite film looks boring. What would you say?",
+    "follow_up_question": "Try starting with: \"Trust me...\" or \"Just give it a chance...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Family",
+    "main_question": "Your parents say you can't have a pet. What would you say?",
+    "follow_up_question": "Try starting with: \"I promise I'll...\" or \"I'll make sure that...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Travel",
+    "main_question": "Your family can't decide where to go on holiday. Convince them to choose your idea.",
+    "follow_up_question": "Try starting with: \"Imagine if we...\" or \"The best thing about it is...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Sports",
+    "main_question": "Your friend doesn't want to try a new sport. What would you say?",
+    "follow_up_question": "Try starting with: \"You'd really enjoy it because...\" or \"Why don't you give it a try?\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Reading",
+    "main_question": "Your friend says reading is boring. What would you say?",
+    "follow_up_question": "Try starting with: \"You might be surprised...\" or \"This book is different because...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Technology",
+    "main_question": "Your parents think your current phone is good enough. What would you say?",
+    "follow_up_question": "Try starting with: \"The reason I'd like a new one is...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "School",
+    "main_question": "Your friend wants to copy your homework. What would you say?",
+    "follow_up_question": "Try starting with: \"I think you'd be better off...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Music",
+    "main_question": "Your friend says your favourite band isn't any good. What would you say?",
+    "follow_up_question": "Try starting with: \"Just listen to one song...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Environment",
+    "main_question": "Your friend says recycling doesn't make a difference. What would you say?",
+    "follow_up_question": "Try starting with: \"Every little bit helps because...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "School",
+    "main_question": "Not many students want to join the school charity event. What would you say to encourage them?",
+    "follow_up_question": "Try starting with: \"It'll be worth it because...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Gaming",
+    "main_question": "Your friend spends every weekend gaming. Convince them to do something else for one day.",
+    "follow_up_question": "Try starting with: \"How about we...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Food",
+    "main_question": "Your friend refuses to try a new food. What would you say?",
+    "follow_up_question": "Try starting with: \"Just have one bite...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "School",
+    "main_question": "Your friend wants to give up learning English. What would you say?",
+    "follow_up_question": "Try starting with: \"Don't give up because...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Friends",
+    "main_question": "Your friend is nervous about joining a new club. What would you say?",
+    "follow_up_question": "Try starting with: \"You've got nothing to lose...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "School",
+    "main_question": "Your teacher says there won't be a class party. What would you say?",
+    "follow_up_question": "Try starting with: \"What if we...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Exercise",
+    "main_question": "Your friend wants to get the bus, but it's only a 15-minute walk. What would you say?",
+    "follow_up_question": "Try starting with: \"Why don't we walk?\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Technology",
+    "main_question": "Your parents think you spend too much time on your phone. What would you say?",
+    "follow_up_question": "Try starting with: \"I only use it for...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "School",
+    "main_question": "Your friend is too shy to answer questions in English class. What would you say?",
+    "follow_up_question": "Try starting with: \"Don't worry...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Weekend",
+    "main_question": "Your friends all want to stay at home this weekend, but you'd like to go out. What would you say?",
+    "follow_up_question": "Try starting with: \"Come on...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Pets",
+    "main_question": "Your friend is scared of your dog. What would you say?",
+    "follow_up_question": "Try starting with: \"Don't worry...\" or \"He's really friendly...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Environment",
+    "main_question": "Your classmates don't want to recycle at school. What would you say?",
+    "follow_up_question": "Try starting with: \"If everyone helped...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "AI",
+    "main_question": "Your friend wants to copy AI answers for their homework. What would you say?",
+    "follow_up_question": "Try starting with: \"You'll learn more if...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Health",
+    "main_question": "Your friend only eats fast food. What would you say?",
+    "follow_up_question": "Try starting with: \"You'd feel much better if...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Study",
+    "main_question": "Your friend never studies before tests. What would you say?",
+    "follow_up_question": "Try starting with: \"Why don't you start by...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "English",
+    "main_question": "Your friend is embarrassed to speak English because they're afraid of making mistakes. What would you say?",
+    "follow_up_question": "Try starting with: \"Everyone makes mistakes...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Hobbies",
+    "main_question": "Your friend says hobbies are a waste of time. What would you say?",
+    "follow_up_question": "Try starting with: \"Actually...\" or \"They can help you...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "School",
+    "main_question": "Your class has one free lesson to plan, but nobody likes your idea. What would you say?",
+    "follow_up_question": "Try starting with: \"Hear me out...\"",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Functional Language",
+    "level": "B1",
+    "topic": "Persuading",
+    "category": "Friends",
+    "main_question": "Your friend doesn't want to try your favourite café. What would you say?",
+    "follow_up_question": "Try starting with: \"I think you'll love it because...\"",
+    "free": false,
+    "teacher_default": true
+  }
+]

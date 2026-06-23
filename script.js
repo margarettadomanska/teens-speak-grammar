@@ -18,57 +18,143 @@ async function loadQuestions() {
     const mainData = await mainResponse.json();
     allData = allData.concat(mainData);
 
-    // Load passive voice file
-    const passiveResponse = await fetch("data/grammar/passive-voice.json");
-    const passiveData = await passiveResponse.json();
-    allData = allData.concat(passiveData);
+    // ---------------- Grammar ----------------
 
-try {
-  const gerundsResponse = await fetch("data/grammar/gerunds-infinitives.json");
+    // Passive Voice
+    try {
+      const passiveResponse = await fetch("data/grammar/passive-voice.json");
+      if (passiveResponse.ok) {
+        const passiveData = await passiveResponse.json();
+        allData = allData.concat(passiveData);
+      }
+    } catch (err) {
+      console.warn("Passive Voice file error:", err);
+    }
 
-  if (gerundsResponse.ok) {
-    const gerundsData = await gerundsResponse.json();
-    allData = allData.concat(gerundsData);
-  } else {
-    console.warn("Gerunds file not found");
-  }
+    // First Conditional
+    try {
+      const response = await fetch("data/grammar/first-conditional.json");
+      if (response.ok) {
+        const data = await response.json();
+        allData = allData.concat(data);
+      }
+    } catch (err) {
+      console.warn("First Conditional file error:", err);
+    }
 
-} catch (err) {
-  console.warn("Gerunds file error:", err);
-}
+    // Second Conditional
+    try {
+      const response = await fetch("data/grammar/second-conditional.json");
+      if (response.ok) {
+        const data = await response.json();
+        allData = allData.concat(data);
+      }
+    } catch (err) {
+      console.warn("Second Conditional file error:", err);
+    }
 
-    // 🔥 ADD THIS BLOCK HERE
-    const adviceResponse = await fetch("data/functional/advice.json");
-    const adviceData = await adviceResponse.json();
-    allData = allData.concat(adviceData);
+    // Third Conditional
+    try {
+      const response = await fetch("data/grammar/third-conditional.json");
+      if (response.ok) {
+        const data = await response.json();
+        allData = allData.concat(data);
+      }
+    } catch (err) {
+      console.warn("Third Conditional file error:", err);
+    }
 
-try {
-  const opinionResponse = await fetch("data/functional/giving-opinion.json");
+    // Gerunds & Infinitives
+    try {
+      const response = await fetch("data/grammar/gerunds-infinitives.json");
+      if (response.ok) {
+        const data = await response.json();
+        allData = allData.concat(data);
+      }
+    } catch (err) {
+      console.warn("Gerunds file error:", err);
+    }
 
-  if (opinionResponse.ok) {
-    const opinionData = await opinionResponse.json();
-    allData = allData.concat(opinionData);
-  } else {
-    console.warn("Giving Opinion file not found");
-  }
+    // Reported Speech
+    try {
+      const response = await fetch("data/grammar/reported-speech.json");
+      if (response.ok) {
+        const data = await response.json();
+        allData = allData.concat(data);
+      }
+    } catch (err) {
+      console.warn("Reported Speech file error:", err);
+    }
 
-} catch (err) {
-  console.warn("Giving Opinion file error:", err);
-}
+    // ---------------- Functional ----------------
 
-try {
-  const suggestionsResponse = await fetch("data/functional/making-suggestions.json");
+    // Advice
+    try {
+      const response = await fetch("data/functional/advice.json");
+      if (response.ok) {
+        const data = await response.json();
+        allData = allData.concat(data);
+      }
+    } catch (err) {
+      console.warn("Advice file error:", err);
+    }
 
-  if (suggestionsResponse.ok) {
-    const suggestionsData = await suggestionsResponse.json();
-    allData = allData.concat(suggestionsData);
-  }
-} catch (err) {
-  console.warn("Making Suggestions file error:", err);
-}
+    // Giving Opinion
+    try {
+      const response = await fetch("data/functional/giving-opinion.json");
+      if (response.ok) {
+        const data = await response.json();
+        allData = allData.concat(data);
+      }
+    } catch (err) {
+      console.warn("Giving Opinion file error:", err);
+    }
+
+    // Making Suggestions
+    try {
+      const response = await fetch("data/functional/making-suggestions.json");
+      if (response.ok) {
+        const data = await response.json();
+        allData = allData.concat(data);
+      }
+    } catch (err) {
+      console.warn("Making Suggestions file error:", err);
+    }
+
+    // Interrupting
+    try {
+      const response = await fetch("data/functional/interrupting.json");
+      if (response.ok) {
+        const data = await response.json();
+        allData = allData.concat(data);
+      }
+    } catch (err) {
+      console.warn("Interrupting file error:", err);
+    }
+
+    // Persuading
+    try {
+      const response = await fetch("data/functional/persuading.json");
+      if (response.ok) {
+        const data = await response.json();
+        allData = allData.concat(data);
+      }
+    } catch (err) {
+      console.warn("Persuading file error:", err);
+    }
+
+    // Speculating
+    try {
+      const response = await fetch("data/functional/speculating.json");
+      if (response.ok) {
+        const data = await response.json();
+        allData = allData.concat(data);
+      }
+    } catch (err) {
+      console.warn("Speculating file error:", err);
+    }
 
     allQuestions = allData;
-
     renderTopics();
 
   } catch (error) {
@@ -236,7 +322,7 @@ function togglePresentation() {
   presentationMode = !presentationMode;
   document.body.classList.toggle("presentation-mode");
 
-  // 📱 Fullscreen ONLY on mobile
+// 📱 Fullscreen ONLY on mobile
   if (isMobile()) {
 
     if (presentationMode) {
@@ -643,4 +729,3 @@ function updateTimerUI() {
   progress.style.stroke = "rgba(255,255,255,0.85)";
 }
 }
-
