@@ -80,5 +80,27 @@ function updateSEO(topic) {
             description
         );
     }
+const schema = document.getElementById("schema");
 
+if (schema) {
+
+    schema.textContent = JSON.stringify({
+
+        "@context": "https://schema.org",
+
+        "@type": "LearningResource",
+
+        "name": topic + " Speaking Questions",
+
+        "description": description,
+
+        "url": "https://teenspeakgrammar.com" + path,
+
+        "learningResourceType": "Speaking Activity",
+
+        "inLanguage": "en"
+
+    });
+
+}
 }
