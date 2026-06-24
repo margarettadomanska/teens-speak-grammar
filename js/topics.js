@@ -18,8 +18,7 @@ function renderTopics() {
   });
 }
 
-function selectTopic(topic) {
-
+function selectTopic(topic, updateUrl = true) {
   state.currentTopic = topic;
 
   const topics =
@@ -38,12 +37,15 @@ function selectTopic(topic) {
 
     const slug = topicData.filename.replace(".json", "");
 
-    history.pushState(
-      {},
-      "",
-      `/${category}/${slug}`
-    );
+  if (updateUrl) {
 
+ const url = `/${category}/${slug}`;
+
+if (updateUrl && window.location.pathname !== url) {
+  history.pushState({}, "", url);
+}
+
+}
   }
 
   state.filteredQuestions = state.questions.filter(
@@ -55,6 +57,8 @@ function selectTopic(topic) {
   state.currentIndex = 0;
 
   showCard();
+
+updateSEO(topic);
 
   document
     .getElementById("topic-list")
@@ -180,6 +184,6 @@ function openTopic(category, slug) {
   }
 
   // Open it
-  selectTopic(topic.title);
+  selectTopic(topic.title, false);
 
 }

@@ -19,5 +19,8 @@ async function init() {
     setupKeyboard();
     
     setupSwipe();
+window.addEventListener("popstate", () => {
+    openRoute();
+});
 
 }
