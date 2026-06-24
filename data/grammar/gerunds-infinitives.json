@@ -1,0 +1,306 @@
+[
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Hobbies",
+    "main_question": "What hobby did you start doing when you were younger?",
+    "follow_up_question": "Why did you decide to start doing it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Habits",
+    "main_question": "Is there something you’ve stopped doing recently?",
+    "follow_up_question": "Why did you stop doing it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Future Plans",
+    "main_question": "What skill would you like to learn to do in the future?",
+    "follow_up_question": "What would you need to do to improve quickly?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Study Habits",
+    "main_question": "Do you prefer studying alone or studying with friends?",
+    "follow_up_question": "Why do you prefer doing it that way?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Free Time",
+    "main_question": "What’s something you enjoy doing after school?",
+    "follow_up_question": "How did you begin doing it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "School",
+    "main_question": "Is there a subject you find difficult to understand?",
+    "follow_up_question": "What could you do to make it easier to learn?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Learning",
+    "main_question": "Have you ever tried learning something online?",
+    "follow_up_question": "What made you decide to try doing it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Family",
+    "main_question": "What’s something your parents encourage you to do?",
+    "follow_up_question": "Do you agree with them about doing it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Self-Improvement",
+    "main_question": "Is there something you need to stop doing to be more successful?",
+    "follow_up_question": "What would help you remember to change?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Careers",
+    "main_question": "What job would you like to have in the future?",
+    "follow_up_question": "What skills will you need to learn to get that job?",
+    "free": false,
+    "teacher_default": true
+  },
+
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Helping Others",
+    "main_question": "Do you enjoy helping other people with homework?",
+    "follow_up_question": "Why is it important to offer to help sometimes?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Travel",
+    "main_question": "What’s a place you would love to visit one day?",
+    "follow_up_question": "What would you like to do there?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Memory",
+    "main_question": "Have you ever forgotten to do something important?",
+    "follow_up_question": "How did you remember to fix the problem?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Regrets",
+    "main_question": "Is there something you regret not doing last year?",
+    "follow_up_question": "Would you like to try doing it in the future?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Technology",
+    "main_question": "What app do you spend the most time using?",
+    "follow_up_question": "Why do you like using it?",
+    "free": false,
+    "teacher_default": true
+  },
+
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Plans",
+    "main_question": "What’s something you’re thinking about doing this year?",
+    "follow_up_question": "What do you need to do to prepare?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Entertainment",
+    "main_question": "Do you prefer watching films at home or going to the cinema?",
+    "follow_up_question": "Why do you prefer doing that?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Sports",
+    "main_question": "What’s a sport you’d like to try playing?",
+    "follow_up_question": "What might stop you from trying it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "School Life",
+    "main_question": "Is there something you avoid doing at school?",
+    "follow_up_question": "Why do you try to avoid doing it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Events",
+    "main_question": "Have you ever agreed to help with an event or project?",
+    "follow_up_question": "What made you agree to take part?",
+    "free": false,
+    "teacher_default": true
+  },
+
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Goals",
+    "main_question": "What’s something you’ve decided to improve this year?",
+    "follow_up_question": "What are you doing to achieve your goal?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Home Life",
+    "main_question": "Do you mind doing chores at home?",
+    "follow_up_question": "Which chores do you refuse to do?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Motivation",
+    "main_question": "What’s something that makes you feel motivated to study?",
+    "follow_up_question": "What helps you continue working when you feel tired?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Routine",
+    "main_question": "Have you ever planned to wake up early to do something important?",
+    "follow_up_question": "Was it difficult to remember to get up?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Mental Health",
+    "main_question": "What’s something you’d like to stop worrying about?",
+    "follow_up_question": "What could you start doing instead?",
+    "free": false,
+    "teacher_default": true
+  },
+
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Food",
+    "main_question": "Do you enjoy trying new food?",
+    "follow_up_question": "Is there anything you refuse to eat?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "TV & Media",
+    "main_question": "What’s a TV series you recommend watching?",
+    "follow_up_question": "Why should people start watching it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Learning Strategies",
+    "main_question": "Have you ever learned to do something by watching videos?",
+    "follow_up_question": "Would you recommend learning that way?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Ambitions",
+    "main_question": "What’s something you hope to achieve before you finish school?",
+    "follow_up_question": "What do you need to start doing now?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Gerunds & Infinitives",
+    "category": "Responsibilities",
+    "main_question": "Is there something you’ve promised to do soon?",
+    "follow_up_question": "What might happen if you forget to do it?",
+    "free": false,
+    "teacher_default": true
+  }
+]

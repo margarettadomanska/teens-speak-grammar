@@ -1,0 +1,452 @@
+[
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "School",
+    "main_question": "If you get a bad mark on your next test, what will you do?",
+    "follow_up_question": "How will you prepare differently next time?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Friendship",
+    "main_question": "If your best friend cancels your plans at the last minute, what will you do?",
+    "follow_up_question": "Will you make new plans or stay at home?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Weather",
+    "main_question": "If it rains this weekend, what will you do instead?",
+    "follow_up_question": "Who will you spend the day with?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Technology",
+    "main_question": "If your phone stops working tomorrow, what will you do?",
+    "follow_up_question": "How long will you manage without it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "AI",
+    "main_question": "If your school starts using AI in every lesson, how will it change your learning?",
+    "follow_up_question": "What will teachers still do better than AI?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Health",
+    "main_question": "If you don't get enough sleep tonight, how will you feel tomorrow?",
+    "follow_up_question": "What will you do to feel more awake?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Travel",
+    "main_question": "If you visit another country this year, where will you go?",
+    "follow_up_question": "What will you want to see there?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Social Media",
+    "main_question": "If one of your videos goes viral, what will you do?",
+    "follow_up_question": "Will you post more videos afterwards?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Sports",
+    "main_question": "If your favourite team wins its next match, how will you celebrate?",
+    "follow_up_question": "Who will you celebrate with?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Future",
+    "main_question": "If you pass all your exams this year, what will you do during the holidays?",
+    "follow_up_question": "What are you looking forward to most?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "School Life",
+    "main_question": "If your teacher gives you extra homework, how will you organise your time?",
+    "follow_up_question": "What will you stop doing to finish it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Environment",
+    "main_question": "If everyone recycles more, how will the environment improve?",
+    "follow_up_question": "What else will people need to do?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Money",
+    "main_question": "If you save €100, what will you buy?",
+    "follow_up_question": "Will you spend it all or save some of it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Gaming",
+    "main_question": "If a new game comes out this month, will you buy it?",
+    "follow_up_question": "Who will you play it with?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Pets",
+    "main_question": "If your pet becomes ill, what will you do?",
+    "follow_up_question": "Who will you ask for help?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Food",
+    "main_question": "If you don't like a new food you try, will you give it another chance?",
+    "follow_up_question": "What will you eat instead?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Music",
+    "main_question": "If your favourite singer comes to your city, will you go to the concert?",
+    "follow_up_question": "Who will you go with?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Family",
+    "main_question": "If your family asks you to help this weekend, what will you do?",
+    "follow_up_question": "What will happen if you don't help?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Friendship",
+    "main_question": "If a friend asks you for help with homework, what will you do?",
+    "follow_up_question": "Will you expect them to help you next time?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Goals",
+    "main_question": "If you achieve one of your goals this year, how will you celebrate?",
+    "follow_up_question": "What goal will you work on next?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Environment",
+    "main_question": "If your school starts a recycling project, will you join it?",
+    "follow_up_question": "How will you encourage other students to join?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Technology",
+    "main_question": "If you lose your internet connection during an online lesson, what will you do?",
+    "follow_up_question": "How will your teacher react?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Free Time",
+    "main_question": "If you have a free afternoon tomorrow, how will you spend it?",
+    "follow_up_question": "Who will you spend it with?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "School",
+    "main_question": "If your class wins a competition, how will everyone celebrate?",
+    "follow_up_question": "What will you do with the prize if you get one?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Jobs",
+    "main_question": "If you get a summer job this year, what will you spend your first pay on?",
+    "follow_up_question": "Will you save any of the money?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Shopping",
+    "main_question": "If you find something you really like but it's expensive, what will you do?",
+    "follow_up_question": "Will you save up for it or buy something else?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Hobbies",
+    "main_question": "If you have enough free time this month, what new hobby will you try?",
+    "follow_up_question": "Who will you try it with?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "School Trip",
+    "main_question": "If your class goes on a school trip this year, what will you be most excited about?",
+    "follow_up_question": "What will you take with you?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Films",
+    "main_question": "If a new film you want to see comes out this weekend, will you watch it at the cinema or at home?",
+    "follow_up_question": "Who will you watch it with?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Holidays",
+    "main_question": "If you go on holiday this summer, what will you do first when you arrive?",
+    "follow_up_question": "What will you be looking forward to the most?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "School",
+    "main_question": "If your teacher gives you the choice, what project will you choose?",
+    "follow_up_question": "Why do you think you'll enjoy it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Friends",
+    "main_question": "If your friends want to do something you don't enjoy, what will you do?",
+    "follow_up_question": "Will they understand your decision?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Festivals",
+    "main_question": "If there's a festival or celebration in your town this year, will you go?",
+    "follow_up_question": "Who will you go with?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Exercise",
+    "main_question": "If you start exercising regularly, how will your life change?",
+    "follow_up_question": "What kind of exercise will you choose?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Reading",
+    "main_question": "If someone recommends a really good book, will you read it?",
+    "follow_up_question": "What kind of books will you look for next?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Shopping",
+    "main_question": "If you find something you really like but it's expensive, what will you do?",
+    "follow_up_question": "Will you save up for it or buy something else?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Hobbies",
+    "main_question": "If you have enough free time this month, what new hobby will you try?",
+    "follow_up_question": "Who will you try it with?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "School Trip",
+    "main_question": "If your class goes on a school trip this year, what will you be most excited about?",
+    "follow_up_question": "What will you take with you?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Films",
+    "main_question": "If a new film you want to see comes out this weekend, will you watch it at the cinema or at home?",
+    "follow_up_question": "Who will you watch it with?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Holidays",
+    "main_question": "If you go on holiday this summer, what will you do first when you arrive?",
+    "follow_up_question": "What will you be looking forward to the most?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "School",
+    "main_question": "If your teacher gives you the choice, what project will you choose?",
+    "follow_up_question": "Why do you think you'll enjoy it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Friends",
+    "main_question": "If your friends want to do something you don't enjoy, what will you do?",
+    "follow_up_question": "Will they understand your decision?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Festivals",
+    "main_question": "If there's a festival or celebration in your town this year, will you go?",
+    "follow_up_question": "Who will you go with?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Exercise",
+    "main_question": "If you start exercising regularly, how will your life change?",
+    "follow_up_question": "What kind of exercise will you choose?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "First Conditional",
+    "category": "Reading",
+    "main_question": "If someone recommends a really good book, will you read it?",
+    "follow_up_question": "What kind of books will you look for next?",
+    "free": false,
+    "teacher_default": true
+  }
+]
