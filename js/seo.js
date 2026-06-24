@@ -96,8 +96,6 @@ if (schema) {
 
         "url": "https://teenspeakgrammar.com" + path,
 
-        "educationalLevel": "B1",
-
         "learningResourceType": "Speaking Activity",
 
         "inLanguage": "en"
