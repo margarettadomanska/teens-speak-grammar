@@ -39,11 +39,11 @@ function selectTopic(topic, updateUrl = true) {
 
   if (updateUrl) {
 
-  history.pushState(
-    {},
-    "",
-    `/${category}/${slug}`
-  );
+ const url = `/${category}/${slug}`;
+
+if (updateUrl && window.location.pathname !== url) {
+  history.pushState({}, "", url);
+}
 
 }
   }
