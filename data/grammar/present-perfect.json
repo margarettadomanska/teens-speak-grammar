@@ -1,0 +1,242 @@
+[
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Experiences",
+    "main_question": "What's the most exciting place you've ever visited?",
+    "follow_up": "Would you like to go there again?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Travel",
+    "main_question": "Have you ever travelled alone?",
+    "follow_up": "Would you like to?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Food",
+    "main_question": "What's the strangest food you've ever eaten?",
+    "follow_up": "Would you eat it again?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Films",
+    "main_question": "What's the best film you've seen this year?",
+    "follow_up": "Why has it impressed you?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Books",
+    "main_question": "Have you read any good books recently?",
+    "follow_up": "Which one would you recommend?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Music",
+    "main_question": "Have you discovered any new artists recently?",
+    "follow_up": "Which songs do you like most?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "School",
+    "main_question": "What's the hardest thing you've learnt at school this year?",
+    "follow_up": "Why was it difficult?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Languages",
+    "main_question": "How has your English improved this year?",
+    "follow_up": "Which skill has improved the most?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Technology",
+    "main_question": "Have you ever broken your phone?",
+    "follow_up": "What happened?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Social Media",
+    "main_question": "Have you ever posted something you later regretted?",
+    "follow_up": "What did you learn from it?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Friends",
+    "main_question": "Have you made any new friends this year?",
+    "follow_up": "How did you meet them?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Family",
+    "main_question": "What's the nicest thing someone in your family has done for you recently?",
+    "follow_up": "How did it make you feel?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Achievements",
+    "main_question": "What's something you've achieved that you're proud of?",
+    "follow_up": "How long did it take?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Dreams",
+    "main_question": "Have you ever achieved a goal you once thought was impossible?",
+    "follow_up": "How did you feel afterwards?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Sports",
+    "main_question": "Have you ever won a competition?",
+    "follow_up": "What was it?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Hobbies",
+    "main_question": "Have you started any new hobbies recently?",
+    "follow_up": "Would you recommend them?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Gaming",
+    "main_question": "What's the best game you've ever played?",
+    "follow_up": "Why do you like it so much?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Travel",
+    "main_question": "Have you ever missed a train, bus or plane?",
+    "follow_up": "What did you do?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Learning",
+    "main_question": "What's the most useful thing you've learnt outside school?",
+    "follow_up": "Who taught you?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Food",
+    "main_question": "Have you ever cooked a meal by yourself?",
+    "follow_up": "How did it turn out?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Animals",
+    "main_question": "Have you ever looked after someone else's pet?",
+    "follow_up": "Would you do it again?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Volunteering",
+    "main_question": "Have you ever helped in a charity event?",
+    "follow_up": "Would you like to do more volunteering?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Weather",
+    "main_question": "What's the hottest or coldest weather you've ever experienced?",
+    "follow_up": "How did you cope?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "School",
+    "main_question": "Have you ever forgotten an important homework assignment?",
+    "follow_up": "What happened next?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Life",
+    "main_question": "What's the biggest change that's happened in your life this year?",
+    "follow_up": "How has it affected you?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "News",
+    "main_question": "Have you heard any good news recently?",
+    "follow_up": "How did you react?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Goals",
+    "main_question": "Have you achieved any of your goals this year?",
+    "follow_up": "Which goal is still left?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Skills",
+    "main_question": "What's a skill you've learnt in the last few years?",
+    "follow_up": "How has it helped you?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Life",
+    "main_question": "Have you ever done something completely outside your comfort zone?",
+    "follow_up": "Would you do it again?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Future",
+    "main_question": "What's something you haven't done yet but really want to do?",
+    "follow_up": "What's stopping you?"
+  }
+]

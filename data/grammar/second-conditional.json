@@ -1,0 +1,302 @@
+[
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "School",
+    "main_question": "If you could change one rule at your school, what would you change?",
+    "follow_up_question": "How would students benefit?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Superpowers",
+    "main_question": "If you had a superpower, what would it be?",
+    "follow_up_question": "How would you use it to help people?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Money",
+    "main_question": "If you suddenly had €5,000 to spend, what would you do with it?",
+    "follow_up_question": "Would you spend it all or save some for later?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Travel",
+    "main_question": "If you could travel anywhere in the world tomorrow, where would you go?",
+    "follow_up_question": "Who would you take with you?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Technology",
+    "main_question": "If you invented an app, what would it do?",
+    "follow_up_question": "Who would find it most useful?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "AI",
+    "main_question": "If AI could do all your homework, would you let it?",
+    "follow_up_question": "What would happen if every student did that?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "School",
+    "main_question": "If you were the headteacher for one day, what would you do?",
+    "follow_up_question": "Which school rule would you definitely keep?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Friends",
+    "main_question": "If you had to move to another country tomorrow, how would you keep in touch with your friends?",
+    "follow_up_question": "What would you miss the most?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Animals",
+    "main_question": "If you could have any animal as a pet, what would you choose?",
+    "follow_up_question": "What would make it a good pet?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Social Media",
+    "main_question": "If you became a famous influencer, what kind of content would you create?",
+    "follow_up_question": "Would fame change your life?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Dream Jobs",
+    "main_question": "If you could have any job in the world, what would you choose?",
+    "follow_up_question": "Why would that job suit you?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Time Travel",
+    "main_question": "If you could travel back in time, where would you go?",
+    "follow_up_question": "What would you want to see?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Future",
+    "main_question": "If you could see your life ten years from now, would you do it?",
+    "follow_up_question": "What would you hope to discover?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Films",
+    "main_question": "If you could live inside any film, which one would you choose?",
+    "follow_up_question": "Which character would you spend time with?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Books",
+    "main_question": "If you could become a character from a book, who would you be?",
+    "follow_up_question": "What adventures would you have?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Music",
+    "main_question": "If you could perform on stage with any singer or band, who would you choose?",
+    "follow_up_question": "Which song would you perform together?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Gaming",
+    "main_question": "If you could design your own video game, what would it be like?",
+    "follow_up_question": "What would make people want to play it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Environment",
+    "main_question": "If you could solve one environmental problem, which one would you choose?",
+    "follow_up_question": "How would life improve afterwards?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Food",
+    "main_question": "If you could only eat one meal for a month, what would you choose?",
+    "follow_up_question": "Do you think you'd get bored of it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Languages",
+    "main_question": "If you could speak any language perfectly, which one would you choose?",
+    "follow_up_question": "How would it change your life?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Sports",
+    "main_question": "If you could become a professional athlete, which sport would you choose?",
+    "follow_up_question": "What would be the best part of that career?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Family",
+    "main_question": "If you could plan your perfect family holiday, where would you go?",
+    "follow_up_question": "What would everyone enjoy doing there?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "School",
+    "main_question": "If you could remove one school subject, which one would it be?",
+    "follow_up_question": "What would you replace it with instead?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "School",
+    "main_question": "If you could create a new school subject, what would students learn?",
+    "follow_up_question": "Why would it be useful?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Fashion",
+    "main_question": "If you could design your own clothes, what would they look like?",
+    "follow_up_question": "Do you think your friends would wear them?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Celebrities",
+    "main_question": "If you could spend a day with any famous person, who would you choose?",
+    "follow_up_question": "What would you ask them first?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Dream House",
+    "main_question": "If you could build your dream house, what would it include?",
+    "follow_up_question": "Where would you build it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Magic",
+    "main_question": "If a genie gave you one wish, what would you wish for?",
+    "follow_up_question": "How would your life change?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "School",
+    "main_question": "If there were no exams, how would school be different?",
+    "follow_up_question": "Would students learn more or less?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Second Conditional",
+    "category": "Life Skills",
+    "main_question": "If you could instantly learn one new skill, what would it be?",
+    "follow_up_question": "How would you use it in your everyday life?",
+    "free": false,
+    "teacher_default": true
+  }
+]

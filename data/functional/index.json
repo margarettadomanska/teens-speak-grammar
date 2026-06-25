@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "advice",
+    "title": "Advice",
+    "type": "Functional Language",
+    "level": "B2",
+    "filename": "advice.json",
+    "questions": 60
+  },
+  {
+    "slug": "giving-opinion",
+    "title": "Giving Opinion",
+    "type": "Functional Language",
+    "level": "B2",
+    "filename": "giving-opinion.json",
+    "questions": 60
+  },
+  {
+    "slug": "interrupting",
+    "title": "Interrupting",
+    "type": "Functional Language",
+    "level": "B2",
+    "filename": "interrupting.json",
+    "questions": 60
+  },
+  {
+    "slug": "making-suggestions",
+    "title": "Making Suggestions",
+    "type": "Functional Language",
+    "level": "B2",
+    "filename": "making-suggestions.json",
+    "questions": 60
+  },
+  {
+    "slug": "persuading",
+    "title": "Persuading",
+    "type": "Functional Language",
+    "level": "B2",
+    "filename": "persuading.json",
+    "questions": 60
+  },
+  {
+    "slug": "speculating",
+    "title": "Speculating",
+    "type": "Functional Language",
+    "level": "B2",
+    "filename": "speculating.json",
+    "questions": 60
+  }
+]
