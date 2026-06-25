@@ -1,0 +1,482 @@
+[
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Education",
+    "main_question": "By the end of this school year, what will you have achieved?",
+    "follow_up": "How long will you have been working towards your biggest goal?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Languages",
+    "main_question": "By this time next year, how much will your English have improved?",
+    "follow_up": "How long will you have been learning English by then?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Career",
+    "main_question": "By the age of 30, what job will you have had?",
+    "follow_up": "How long will you have been working in your chosen field?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Travel",
+    "main_question": "By the time you're 30, which countries will you have visited?",
+    "follow_up": "How many years will you have been travelling?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Reading",
+    "main_question": "By the end of this year, how many books will you have read?",
+    "follow_up": "How long will you have been trying to read more?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Exercise",
+    "main_question": "By next summer, what fitness goals will you have reached?",
+    "follow_up": "How long will you have been training?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Technology",
+    "main_question": "What new technologies will people have invented by 2050?",
+    "follow_up": "How long will scientists have been developing them?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "AI",
+    "main_question": "What jobs will AI have replaced in twenty years?",
+    "follow_up": "How long will people have been using AI every day by then?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Family",
+    "main_question": "By the time you're 35, what family milestones will you have reached?",
+    "follow_up": "How long will you have been living independently?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "School",
+    "main_question": "By the end of this term, what projects will you have completed?",
+    "follow_up": "How long will you have been working on your biggest project?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Music",
+    "main_question": "Which concerts will you have attended by the end of the year?",
+    "follow_up": "How long will you have been following your favourite artist?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Sports",
+    "main_question": "By the next Olympic Games, what records will athletes have broken?",
+    "follow_up": "How long will they have been preparing?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Dreams",
+    "main_question": "By the age of 40, what dream will you have achieved?",
+    "follow_up": "How long will you have been working towards it?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Gaming",
+    "main_question": "By the end of the holidays, how many games will you have finished?",
+    "follow_up": "How many hours will you have been playing?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Films",
+    "main_question": "Which TV series will you have finished by the end of the month?",
+    "follow_up": "How long will you have been watching your favourite one?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Environment",
+    "main_question": "What environmental problems will humans have solved by 2100?",
+    "follow_up": "How long will scientists have been researching them?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Health",
+    "main_question": "What diseases will doctors have cured in the future?",
+    "follow_up": "How long will researchers have been studying them?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Food",
+    "main_question": "What foods will you have learnt to cook by the end of this year?",
+    "follow_up": "How long will you have been improving your cooking skills?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Friendship",
+    "main_question": "By next summer, what memories will you have made with your friends?",
+    "follow_up": "How long will you have been friends?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Life",
+    "main_question": "By the time you retire, what will you have done that you're most proud of?",
+    "follow_up": "How many years will you have been working?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Social Media",
+    "main_question": "How will social media have changed in ten years?",
+    "follow_up": "How long will people have been using it by then?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Space",
+    "main_question": "Which planets will humans have explored by 2100?",
+    "follow_up": "How long will scientists have been planning those missions?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Learning",
+    "main_question": "What new skills will you have learnt by the end of next year?",
+    "follow_up": "How long will you have been practising your favourite skill?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Climate",
+    "main_question": "How will the climate have changed by 2050?",
+    "follow_up": "How long will scientists have been warning us?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Goals",
+    "main_question": "By the end of this decade, what personal goals will you have achieved?",
+    "follow_up": "How long will you have been working towards them?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Cities",
+    "main_question": "How will cities have changed by 2050?",
+    "follow_up": "How long will people have been building smart cities?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Transport",
+    "main_question": "What transport improvements will your country have made by 2040?",
+    "follow_up": "How long will engineers have been developing them?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Work",
+    "main_question": "Which new careers will have appeared in twenty years?",
+    "follow_up": "How long will people have been adapting to new technology?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Life",
+    "main_question": "By the end of your life, what do you hope you will have accomplished?",
+    "follow_up": "What will you have been dedicating most of your time to?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Reflection",
+    "main_question": "When you look back on your life in the future, what will you have achieved that matters most?",
+    "follow_up": "What will you have been doing throughout your life that made the biggest difference?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Languages",
+    "main_question": "By this time next year, how long will you have been learning English?",
+    "follow_up": "What do you think will have improved the most?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "School",
+    "main_question": "By the end of this school year, how long will you have been studying at your current school?",
+    "follow_up": "What will have changed since you started?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Exercise",
+    "main_question": "By next summer, how long will you have been exercising regularly?",
+    "follow_up": "What results do you expect to see?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Music",
+    "main_question": "By the end of the year, how long will you have been listening to your favourite artist?",
+    "follow_up": "Will your taste have changed?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Reading",
+    "main_question": "By December, how long will you have been trying to read more books?",
+    "follow_up": "Do you think you'll have reached your goal?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Technology",
+    "main_question": "By 2035, how long will people have been using AI in everyday life?",
+    "follow_up": "How much will society have changed?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Career",
+    "main_question": "By the age of 30, how long will you have been working?",
+    "follow_up": "What skills will you have developed?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Friendship",
+    "main_question": "By the end of secondary school, how long will you have been friends with your best friend?",
+    "follow_up": "What memories will you have made together?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Family",
+    "main_question": "By next Christmas, how long will your family have been living in your current home?",
+    "follow_up": "Will anything have changed?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Gaming",
+    "main_question": "By the end of the holidays, how long will you have been playing your favourite game?",
+    "follow_up": "Will you still enjoy it?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Environment",
+    "main_question": "By 2050, how long will scientists have been studying climate change?",
+    "follow_up": "What progress will they have made?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Health",
+    "main_question": "By the end of the year, how long will you have been trying to live more healthily?",
+    "follow_up": "Will it have become a habit?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Travel",
+    "main_question": "By the time you're 40, how long will you have been travelling regularly?",
+    "follow_up": "Which places will have impressed you most?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Work",
+    "main_question": "By retirement, how many years will you have been working?",
+    "follow_up": "Will you be ready for a break?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Social Media",
+    "main_question": "By 2030, how long will teenagers have been using social media?",
+    "follow_up": "Do you think their habits will have changed?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Education",
+    "main_question": "By the end of university, how long will you have been studying your subject?",
+    "follow_up": "What will you have learnt?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Sport",
+    "main_question": "By the next Olympics, how long will elite athletes have been preparing?",
+    "follow_up": "Will training methods have changed?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Cities",
+    "main_question": "By 2050, how long will people have been building smart cities?",
+    "follow_up": "What improvements will they have made?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Food",
+    "main_question": "By next summer, how long will you have been trying to eat more healthily?",
+    "follow_up": "Will your eating habits have changed permanently?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Life",
+    "main_question": "By the time you're 50, what activity do you think you will have been doing for the longest?",
+    "follow_up": "Why do you think you'll stick with it?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Technology",
+    "main_question": "By 2040, how long will people have been working remotely?",
+    "follow_up": "How will workplaces have changed?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Pets",
+    "main_question": "By next year, how long will you have been looking after your pet?",
+    "follow_up": "What will you have learnt?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Hobbies",
+    "main_question": "By next Christmas, how long will you have been practising your favourite hobby?",
+    "follow_up": "How much better will you have become?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Learning",
+    "main_question": "By the end of this course, how long will you have been learning this topic?",
+    "follow_up": "What has been the hardest part?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Climate",
+    "main_question": "By 2100, how long will scientists have been warning people about climate change?",
+    "follow_up": "Will governments have listened?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Space",
+    "main_question": "By the end of this century, how long will humans have been exploring space?",
+    "follow_up": "What discoveries will they have made?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Goals",
+    "main_question": "By the time you're 35, how long will you have been working towards your biggest dream?",
+    "follow_up": "Do you think you'll have achieved it?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Habits",
+    "main_question": "By next year, how long will you have been trying to build your best habit?",
+    "follow_up": "Will it feel natural by then?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Life",
+    "main_question": "By retirement, what will you have been doing for most of your life?",
+    "follow_up": "Will it have been worth it?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Future Perfect & Future Perfect Continuous",
+    "category": "Reflection",
+    "main_question": "By the end of your life, what passion do you hope you will have been following for the longest?",
+    "follow_up": "Why is it so important to you?"
+  }
+]

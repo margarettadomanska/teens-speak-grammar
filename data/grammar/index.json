@@ -118,5 +118,79 @@
     "level": "B1",
     "filename": "zero-first-second-conditionals.json",
     "questions": 60
-  }
+  },
+
+{
+  "slug": "present-simple",
+  "title": "Present Simple",
+  "type": "Grammar",
+  "level": "A2",
+  "filename": "present-simple.json",
+  "questions": 30
+},
+
+{
+  "slug": "present-continuous",
+  "title": "Present Continuous",
+  "type": "Grammar",
+  "level": "A2",
+  "filename": "present-continuous.json",
+  "questions": 30
+},
+
+{
+  "slug": "present-perfect-continuous",
+  "title": "Present Perfect Continuous",
+  "type": "Grammar",
+  "level": "B2",
+  "filename": "present-perfect-continuous.json",
+  "questions": 30
+},
+
+{
+  "slug": "present-perfect",
+  "title": "Present Perfect",
+  "type": "Grammar",
+  "level": "B1",
+  "filename": "present-perfect.json",
+  "questions": 30
+},
+
+{
+  "slug": "present-and-past-habits",
+  "title": "Present & Past Habits",
+  "type": "Grammar",
+  "level": "B1",
+  "filename": "present-and-past-habits.json",
+  "questions": 30
+},
+
+{
+  "slug": "be-and-get-used-to",
+  "title": "Be & Get Used To",
+  "type": "Grammar",
+  "level": "B1",
+  "filename": "be-and-get-used-to.json",
+  "questions": 30
+},
+
+{
+  "slug": "future-perfect-and-future-perfect-continuous",
+  "title": "Future Perfect & Future Perfect Continuous",
+  "type": "Grammar",
+  "level": "B2",
+  "filename": "future-perfect-and-future-perfect-continuous.json",
+  "questions": 60
+},
+
+{
+  "slug": "past-modals",
+  "title": "Past Modals",
+  "type": "Grammar",
+  "level": "B2",
+  "filename": "past-modals.json",
+  "questions": 30
+}
+
+
 ]

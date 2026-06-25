@@ -2,13 +2,13 @@ function renderTopics() {
   const topicList = document.getElementById("topic-list");
   topicList.innerHTML = "";
 
-  const topics = [
-    ...new Set(
-      state.questions
-        .filter(q => q.type === state.currentType)
-        .map(q => q.topic)
-    )
-  ];
+const topics = [
+  ...new Set(
+    state.questions
+      .filter(q => q.type === state.currentType)
+      .map(q => q.topic)
+  )
+].sort((a, b) => a.localeCompare(b));
 
   topics.forEach(topic => {
     const btn = document.createElement("button");
