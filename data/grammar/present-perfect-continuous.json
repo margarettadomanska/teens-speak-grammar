@@ -5,7 +5,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Life",
     "main_question": "What have you been doing a lot recently?",
-    "follow_up": "Why have you been spending so much time on it?"
+    "follow_up_question": "Why have you been spending so much time on it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -13,7 +15,9 @@
     "topic": "Present Perfect Continuous",
     "category": "School",
     "main_question": "Which subject have you been finding the most challenging recently?",
-    "follow_up": "What have you been doing to improve?"
+    "follow_up_question": "What have you been doing to improve?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -21,7 +25,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Homework",
     "main_question": "Have you been spending more or less time on homework lately?",
-    "follow_up": "Why?"
+    "follow_up_question": "Why?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -29,7 +35,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Technology",
     "main_question": "Have you been using your phone more than usual recently?",
-    "follow_up": "How has it affected your daily life?"
+    "follow_up_question": "How has it affected your daily life?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -37,7 +45,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Social Media",
     "main_question": "Which social media platform have you been using the most recently?",
-    "follow_up": "Has your opinion of it changed?"
+    "follow_up_question": "Has your opinion of it changed?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -45,7 +55,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Reading",
     "main_question": "What books have you been reading recently?",
-    "follow_up": "Would you recommend them?"
+    "follow_up_question": "Would you recommend them?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -53,7 +65,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Films",
     "main_question": "What TV series have you been watching lately?",
-    "follow_up": "What keeps you interested?"
+    "follow_up_question": "What keeps you interested?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -61,7 +75,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Music",
     "main_question": "What kind of music have you been listening to recently?",
-    "follow_up": "Has your taste changed?"
+    "follow_up_question": "Has your taste changed?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -69,7 +85,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Exercise",
     "main_question": "Have you been exercising regularly recently?",
-    "follow_up": "How has it made you feel?"
+    "follow_up_question": "How has it made you feel?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -77,7 +95,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Health",
     "main_question": "Have you been trying to improve your health lately?",
-    "follow_up": "What changes have you been making?"
+    "follow_up_question": "What changes have you been making?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -85,7 +105,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Hobbies",
     "main_question": "What hobby have you been spending the most time on recently?",
-    "follow_up": "Why have you become more interested in it?"
+    "follow_up_question": "Why have you become more interested in it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -93,7 +115,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Gaming",
     "main_question": "Have you been playing any games a lot recently?",
-    "follow_up": "What makes them so addictive?"
+    "follow_up_question": "What makes them so addictive?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -101,7 +125,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Friends",
     "main_question": "Who have you been spending the most time with recently?",
-    "follow_up": "What have you been doing together?"
+    "follow_up_question": "What have you been doing together?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -109,7 +135,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Family",
     "main_question": "Have you been helping more at home recently?",
-    "follow_up": "What jobs have you been doing?"
+    "follow_up_question": "What jobs have you been doing?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -117,7 +145,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Languages",
     "main_question": "How have you been improving your English recently?",
-    "follow_up": "Which method has been helping the most?"
+    "follow_up_question": "Which method has been helping the most?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -125,7 +155,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Goals",
     "main_question": "What goal have you been working towards recently?",
-    "follow_up": "How much progress have you made?"
+    "follow_up_question": "How much progress have you made?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -133,7 +165,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Dreams",
     "main_question": "Have your future plans been changing recently?",
-    "follow_up": "What has influenced those changes?"
+    "follow_up_question": "What has influenced those changes?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -141,7 +175,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Weather",
     "main_question": "Has the weather been affecting your mood recently?",
-    "follow_up": "In what way?"
+    "follow_up_question": "In what way?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -149,7 +185,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Travel",
     "main_question": "Have you been thinking about travelling anywhere recently?",
-    "follow_up": "Why does that place interest you?"
+    "follow_up_question": "Why does that place interest you?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -157,7 +195,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Fashion",
     "main_question": "Have your clothes or style been changing recently?",
-    "follow_up": "What has inspired the change?"
+    "follow_up_question": "What has inspired the change?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -165,7 +205,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Food",
     "main_question": "Have you been eating anything different lately?",
-    "follow_up": "Would you recommend it?"
+    "follow_up_question": "Would you recommend it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -173,7 +215,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Environment",
     "main_question": "Have people been becoming more environmentally friendly recently?",
-    "follow_up": "Why do you think that is?"
+    "follow_up_question": "Why do you think that is?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -181,7 +225,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Learning",
     "main_question": "What new skills have you been learning recently?",
-    "follow_up": "Which one has been the most enjoyable?"
+    "follow_up_question": "Which one has been the most enjoyable?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -189,7 +235,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Sleep",
     "main_question": "Have you been sleeping well recently?",
-    "follow_up": "Why or why not?"
+    "follow_up_question": "Why or why not?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -197,7 +245,9 @@
     "topic": "Present Perfect Continuous",
     "category": "News",
     "main_question": "What topics have people been talking about recently?",
-    "follow_up": "Why are they so popular?"
+    "follow_up_question": "Why are they so popular?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -205,7 +255,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Pets",
     "main_question": "How has your pet been behaving recently?",
-    "follow_up": "Has anything changed?"
+    "follow_up_question": "Has anything changed?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -213,7 +265,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Life",
     "main_question": "What has been making you happiest recently?",
-    "follow_up": "Why has it had such a positive effect?"
+    "follow_up_question": "Why has it had such a positive effect?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -221,7 +275,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Problems",
     "main_question": "What has been annoying you recently?",
-    "follow_up": "How have you been dealing with it?"
+    "follow_up_question": "How have you been dealing with it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -229,7 +285,9 @@
     "topic": "Present Perfect Continuous",
     "category": "Future",
     "main_question": "Have you been preparing for anything important recently?",
-    "follow_up": "When will it happen?"
+    "follow_up_question": "When will it happen?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -237,6 +295,8 @@
     "topic": "Present Perfect Continuous",
     "category": "Personal Growth",
     "main_question": "How have you been changing as a person recently?",
-    "follow_up": "What has caused those changes?"
+    "follow_up_question": "What has caused those changes?",
+    "free": false,
+    "teacher_default": true
   }
 ]

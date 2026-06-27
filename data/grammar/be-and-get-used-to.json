@@ -5,7 +5,9 @@
     "topic": "Be & Get Used To",
     "category": "School",
     "main_question": "What have you got used to at your school that was difficult at first?",
-    "follow_up": "How long did it take?"
+    "follow_up_question": "How long did it take?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -13,7 +15,9 @@
     "topic": "Be & Get Used To",
     "category": "Morning Routine",
     "main_question": "Are you used to getting up early?",
-    "follow_up": "Would you prefer a different routine?"
+    "follow_up_question": "Would you prefer a different routine?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -21,7 +25,9 @@
     "topic": "Be & Get Used To",
     "category": "Technology",
     "main_question": "Have you got used to using AI tools?",
-    "follow_up": "How have they changed your life?"
+    "follow_up_question": "How have they changed your life?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -29,7 +35,9 @@
     "topic": "Be & Get Used To",
     "category": "Food",
     "main_question": "Is there any food you couldn't eat before but have got used to?",
-    "follow_up": "Do you enjoy it now?"
+    "follow_up_question": "Do you enjoy it now?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -37,7 +45,9 @@
     "topic": "Be & Get Used To",
     "category": "Languages",
     "main_question": "Are you used to speaking English in class?",
-    "follow_up": "Was it difficult at first?"
+    "follow_up_question": "Was it difficult at first?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -45,7 +55,9 @@
     "topic": "Be & Get Used To",
     "category": "Family",
     "main_question": "Have you got used to doing any new jobs at home?",
-    "follow_up": "Which one was hardest?"
+    "follow_up_question": "Which one was hardest?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -53,7 +65,9 @@
     "topic": "Be & Get Used To",
     "category": "Travel",
     "main_question": "Could you get used to living in another country?",
-    "follow_up": "Which country would you choose?"
+    "follow_up_question": "Which country would you choose?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -61,7 +75,9 @@
     "topic": "Be & Get Used To",
     "category": "Friends",
     "main_question": "Have you ever had to get used to a new group of friends?",
-    "follow_up": "How did you feel?"
+    "follow_up_question": "How did you feel?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -69,7 +85,9 @@
     "topic": "Be & Get Used To",
     "category": "Weather",
     "main_question": "Are you used to hot summers?",
-    "follow_up": "Which weather is hardest for you?"
+    "follow_up_question": "Which weather is hardest for you?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -77,7 +95,9 @@
     "topic": "Be & Get Used To",
     "category": "School",
     "main_question": "Have you got used to online homework?",
-    "follow_up": "Do you prefer it?"
+    "follow_up_question": "Do you prefer it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -85,7 +105,9 @@
     "topic": "Be & Get Used To",
     "category": "Exercise",
     "main_question": "Could you get used to exercising every day?",
-    "follow_up": "What would motivate you?"
+    "follow_up_question": "What would motivate you?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -93,7 +115,9 @@
     "topic": "Be & Get Used To",
     "category": "Sleep",
     "main_question": "Are you used to staying up late?",
-    "follow_up": "Does it affect you?"
+    "follow_up_question": "Does it affect you?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -101,7 +125,9 @@
     "topic": "Be & Get Used To",
     "category": "Technology",
     "main_question": "Have your grandparents got used to smartphones?",
-    "follow_up": "Was it easy for them?"
+    "follow_up_question": "Was it easy for them?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -109,7 +135,9 @@
     "topic": "Be & Get Used To",
     "category": "Transport",
     "main_question": "Would you get used to cycling everywhere instead of driving?",
-    "follow_up": "Why or why not?"
+    "follow_up_question": "Why or why not?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -117,7 +145,9 @@
     "topic": "Be & Get Used To",
     "category": "Pets",
     "main_question": "Are you used to looking after animals?",
-    "follow_up": "Which animals would you like to have?"
+    "follow_up_question": "Which animals would you like to have?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -125,7 +155,9 @@
     "topic": "Be & Get Used To",
     "category": "Life",
     "main_question": "What's the hardest change you've had to get used to?",
-    "follow_up": "How long did it take?"
+    "follow_up_question": "How long did it take?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -133,7 +165,9 @@
     "topic": "Be & Get Used To",
     "category": "Music",
     "main_question": "Have you ever got used to a type of music you didn't like before?",
-    "follow_up": "What changed your mind?"
+    "follow_up_question": "What changed your mind?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -141,7 +175,9 @@
     "topic": "Be & Get Used To",
     "category": "Reading",
     "main_question": "Are you used to reading on a screen instead of paper?",
-    "follow_up": "Which do you prefer?"
+    "follow_up_question": "Which do you prefer?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -149,7 +185,9 @@
     "topic": "Be & Get Used To",
     "category": "Gaming",
     "main_question": "How long does it take you to get used to a new game?",
-    "follow_up": "Do you enjoy learning the rules?"
+    "follow_up_question": "Do you enjoy learning the rules?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -157,7 +195,9 @@
     "topic": "Be & Get Used To",
     "category": "Travel",
     "main_question": "Could you get used to travelling alone?",
-    "follow_up": "What would be the biggest challenge?"
+    "follow_up_question": "What would be the biggest challenge?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -165,7 +205,9 @@
     "topic": "Be & Get Used To",
     "category": "Food",
     "main_question": "Are you used to eating spicy food?",
-    "follow_up": "Would you like to try hotter food?"
+    "follow_up_question": "Would you like to try hotter food?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -173,7 +215,9 @@
     "topic": "Be & Get Used To",
     "category": "Sport",
     "main_question": "Have you ever got used to a difficult sport or activity?",
-    "follow_up": "Was it worth the effort?"
+    "follow_up_question": "Was it worth the effort?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -181,7 +225,9 @@
     "topic": "Be & Get Used To",
     "category": "Free Time",
     "main_question": "Could you get used to having much less free time?",
-    "follow_up": "How would you manage?"
+    "follow_up_question": "How would you manage?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -189,7 +235,9 @@
     "topic": "Be & Get Used To",
     "category": "School",
     "main_question": "Have you got used to giving presentations?",
-    "follow_up": "Do you still feel nervous?"
+    "follow_up_question": "Do you still feel nervous?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -197,7 +245,9 @@
     "topic": "Be & Get Used To",
     "category": "Social Media",
     "main_question": "Are you used to communicating online every day?",
-    "follow_up": "Do you prefer face-to-face conversations?"
+    "follow_up_question": "Do you prefer face-to-face conversations?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -205,7 +255,9 @@
     "topic": "Be & Get Used To",
     "category": "Future",
     "main_question": "What do you think you'll have to get used to as an adult?",
-    "follow_up": "Which change will be the hardest?"
+    "follow_up_question": "Which change will be the hardest?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -213,7 +265,9 @@
     "topic": "Be & Get Used To",
     "category": "Technology",
     "main_question": "Do you think people will get used to robots doing more jobs?",
-    "follow_up": "Would that be a good thing?"
+    "follow_up_question": "Would that be a good thing?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -221,7 +275,9 @@
     "topic": "Be & Get Used To",
     "category": "Life",
     "main_question": "What have you never got used to?",
-    "follow_up": "Why do you think that is?"
+    "follow_up_question": "Why do you think that is?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -229,7 +285,9 @@
     "topic": "Be & Get Used To",
     "category": "Home",
     "main_question": "Are you used to doing household chores?",
-    "follow_up": "Which one do you mind the least?"
+    "follow_up_question": "Which one do you mind the least?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -237,6 +295,8 @@
     "topic": "Be & Get Used To",
     "category": "Reflection",
     "main_question": "What advice would you give someone who is trying to get used to a big life change?",
-    "follow_up": "Have you ever followed similar advice yourself?"
+    "follow_up_question": "Have you ever followed similar advice yourself?",
+    "free": false,
+    "teacher_default": true
   }
 ]

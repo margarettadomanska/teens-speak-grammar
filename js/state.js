@@ -16,6 +16,10 @@ const state = {
 
     presentationMode: false,
 
-    swipeHintVisible: false
+    swipeHintVisible: false,
+
+    selectedRevisionTopics: [],
+
+    revisionQuestionCount: null
 
 };

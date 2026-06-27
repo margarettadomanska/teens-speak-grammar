@@ -85,10 +85,19 @@ body {
 
 /* Utility Help Button (Override Global Button Style) */
 #help-btn {
+  position: absolute;
+  left: 40px;
+  top: 56px;
+
   background: rgba(255,255,255,0.12);
   border: 1px solid rgba(255,255,255,0.35);
   color: white;
   box-shadow: none;
+
+  padding: 8px 18px;
+  border-radius: 22px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 #help-btn:hover {
@@ -283,15 +292,13 @@ button.active-topic {
     position: static;
   }
 
-  #help-btn {
-    position: fixed;
-    top: 18px;
-    right: 18px;
-    padding: 6px 12px;
-    font-size: 12px;
-    border-radius: 14px;
-    z-index: 3000;
-  }
+ #help-btn {
+        display: none !important;
+    }
+
+#revision-btn {
+    display: none !important;
+}
 
 }
 
@@ -733,3 +740,201 @@ body.presentation-mode .timer-widget {
   }
 }
 
+
+/* ============================= */
+/* REVISION BUILDER */
+/* ============================= */
+
+.card.revision-mode {
+
+    max-width: 950px;
+    min-height: 560px;
+    padding: 24px 45px 38px;
+
+}
+
+.card.revision-mode h2 {
+
+    margin: 0 0 12px;
+
+}
+
+.card.revision-mode h3 {
+
+    margin: 18px 0 12px;
+
+    font-size: 1.35rem;
+
+}
+
+.card.revision-mode .hint {
+
+    margin: 0 0 18px;
+
+}
+
+/* ---------- Topic Area ---------- */
+
+#revision-topics {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 10px;
+
+    height: 220px;
+    overflow-y: auto;
+
+    margin: 18px 0 24px;
+    padding: 14px;
+
+    border: 1px solid #e6e6e6;
+    border-radius: 18px;
+
+}
+
+#revision-topics button {
+
+    flex: 0 0 auto;
+
+    padding: 10px 18px;
+
+    border: 2px solid #dcdcdc;
+    border-radius: 999px;
+
+    background: white;
+    color: #333;
+
+    cursor: pointer;
+
+    transition: all .2s ease;
+
+}
+
+#revision-topics button:hover {
+
+    transform: translateY(-2px);
+    border-color: #43c463;
+
+}
+
+#revision-topics button.active-topic,
+#revision-question-count button.active-topic {
+
+    background: #43c463;
+    color: white;
+    border-color: #43c463;
+
+}
+
+#revision-topics::-webkit-scrollbar {
+
+    width: 8px;
+
+}
+
+#revision-topics::-webkit-scrollbar-thumb {
+
+    background: #d0d0d0;
+    border-radius: 999px;
+
+}
+
+/* ---------- Question Selector ---------- */
+
+#revision-question-count {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    margin: 18px 0 18px;
+
+}
+
+#revision-question-count button {
+
+    min-width: 46px;
+
+}
+
+/* ---------- Summary ---------- */
+
+#revision-summary {
+
+    margin: 14px 0 22px;
+
+    font-size: 0.95rem;
+
+    color: #666;
+
+    line-height: 1.45;
+
+}
+
+/* ---------- Buttons ---------- */
+
+#start-revision-btn {
+
+    min-width: 220px;
+
+    padding: 14px 28px;
+
+    margin-top: 6px;
+
+    background: #0EA5A4;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 999px;
+
+    font-size: 1rem;
+
+    font-weight: 600;
+
+}
+
+#start-revision-btn:hover:not(:disabled) {
+
+    background: #0C8C8B;
+
+}
+
+#start-revision-btn:disabled {
+
+    background: #d9d9d9;
+
+    color: #888;
+
+    box-shadow: none;
+
+    cursor: not-allowed;
+
+}
+
+#cancel-revision-btn {
+
+    box-shadow: none;
+
+    background: transparent;
+
+    color: #777;
+
+    margin: 0;
+
+}
+
+#cancel-revision-btn:hover {
+
+    background: transparent;
+
+    text-decoration: underline;
+
+    transform: none;
+
+}

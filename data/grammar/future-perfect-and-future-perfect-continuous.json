@@ -5,7 +5,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Education",
     "main_question": "By the end of this school year, what will you have achieved?",
-    "follow_up": "How long will you have been working towards your biggest goal?"
+    "follow_up_question": "How long will you have been working towards your biggest goal?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -13,7 +15,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Languages",
     "main_question": "By this time next year, how much will your English have improved?",
-    "follow_up": "How long will you have been learning English by then?"
+    "follow_up_question": "How long will you have been learning English by then?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -21,7 +25,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Career",
     "main_question": "By the age of 30, what job will you have had?",
-    "follow_up": "How long will you have been working in your chosen field?"
+    "follow_up_question": "How long will you have been working in your chosen field?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -29,7 +35,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Travel",
     "main_question": "By the time you're 30, which countries will you have visited?",
-    "follow_up": "How many years will you have been travelling?"
+    "follow_up_question": "How many years will you have been travelling?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -37,7 +45,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Reading",
     "main_question": "By the end of this year, how many books will you have read?",
-    "follow_up": "How long will you have been trying to read more?"
+    "follow_up_question": "How long will you have been trying to read more?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -45,7 +55,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Exercise",
     "main_question": "By next summer, what fitness goals will you have reached?",
-    "follow_up": "How long will you have been training?"
+    "follow_up_question": "How long will you have been training?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -53,7 +65,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Technology",
     "main_question": "What new technologies will people have invented by 2050?",
-    "follow_up": "How long will scientists have been developing them?"
+    "follow_up_question": "How long will scientists have been developing them?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -61,7 +75,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "AI",
     "main_question": "What jobs will AI have replaced in twenty years?",
-    "follow_up": "How long will people have been using AI every day by then?"
+    "follow_up_question": "How long will people have been using AI every day by then?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -69,7 +85,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Family",
     "main_question": "By the time you're 35, what family milestones will you have reached?",
-    "follow_up": "How long will you have been living independently?"
+    "follow_up_question": "How long will you have been living independently?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -77,7 +95,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "School",
     "main_question": "By the end of this term, what projects will you have completed?",
-    "follow_up": "How long will you have been working on your biggest project?"
+    "follow_up_question": "How long will you have been working on your biggest project?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -85,7 +105,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Music",
     "main_question": "Which concerts will you have attended by the end of the year?",
-    "follow_up": "How long will you have been following your favourite artist?"
+    "follow_up_question": "How long will you have been following your favourite artist?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -93,7 +115,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Sports",
     "main_question": "By the next Olympic Games, what records will athletes have broken?",
-    "follow_up": "How long will they have been preparing?"
+    "follow_up_question": "How long will they have been preparing?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -101,7 +125,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Dreams",
     "main_question": "By the age of 40, what dream will you have achieved?",
-    "follow_up": "How long will you have been working towards it?"
+    "follow_up_question": "How long will you have been working towards it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -109,7 +135,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Gaming",
     "main_question": "By the end of the holidays, how many games will you have finished?",
-    "follow_up": "How many hours will you have been playing?"
+    "follow_up_question": "How many hours will you have been playing?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -117,7 +145,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Films",
     "main_question": "Which TV series will you have finished by the end of the month?",
-    "follow_up": "How long will you have been watching your favourite one?"
+    "follow_up_question": "How long will you have been watching your favourite one?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -125,7 +155,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Environment",
     "main_question": "What environmental problems will humans have solved by 2100?",
-    "follow_up": "How long will scientists have been researching them?"
+    "follow_up_question": "How long will scientists have been researching them?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -133,7 +165,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Health",
     "main_question": "What diseases will doctors have cured in the future?",
-    "follow_up": "How long will researchers have been studying them?"
+    "follow_up_question": "How long will researchers have been studying them?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -141,7 +175,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Food",
     "main_question": "What foods will you have learnt to cook by the end of this year?",
-    "follow_up": "How long will you have been improving your cooking skills?"
+    "follow_up_question": "How long will you have been improving your cooking skills?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -149,7 +185,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Friendship",
     "main_question": "By next summer, what memories will you have made with your friends?",
-    "follow_up": "How long will you have been friends?"
+    "follow_up_question": "How long will you have been friends?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -157,7 +195,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Life",
     "main_question": "By the time you retire, what will you have done that you're most proud of?",
-    "follow_up": "How many years will you have been working?"
+    "follow_up_question": "How many years will you have been working?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -165,7 +205,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Social Media",
     "main_question": "How will social media have changed in ten years?",
-    "follow_up": "How long will people have been using it by then?"
+    "follow_up_question": "How long will people have been using it by then?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -173,7 +215,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Space",
     "main_question": "Which planets will humans have explored by 2100?",
-    "follow_up": "How long will scientists have been planning those missions?"
+    "follow_up_question": "How long will scientists have been planning those missions?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -181,7 +225,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Learning",
     "main_question": "What new skills will you have learnt by the end of next year?",
-    "follow_up": "How long will you have been practising your favourite skill?"
+    "follow_up_question": "How long will you have been practising your favourite skill?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -189,7 +235,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Climate",
     "main_question": "How will the climate have changed by 2050?",
-    "follow_up": "How long will scientists have been warning us?"
+    "follow_up_question": "How long will scientists have been warning us?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -197,7 +245,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Goals",
     "main_question": "By the end of this decade, what personal goals will you have achieved?",
-    "follow_up": "How long will you have been working towards them?"
+    "follow_up_question": "How long will you have been working towards them?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -205,7 +255,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Cities",
     "main_question": "How will cities have changed by 2050?",
-    "follow_up": "How long will people have been building smart cities?"
+    "follow_up_question": "How long will people have been building smart cities?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -213,7 +265,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Transport",
     "main_question": "What transport improvements will your country have made by 2040?",
-    "follow_up": "How long will engineers have been developing them?"
+    "follow_up_question": "How long will engineers have been developing them?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -221,7 +275,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Work",
     "main_question": "Which new careers will have appeared in twenty years?",
-    "follow_up": "How long will people have been adapting to new technology?"
+    "follow_up_question": "How long will people have been adapting to new technology?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -229,7 +285,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Life",
     "main_question": "By the end of your life, what do you hope you will have accomplished?",
-    "follow_up": "What will you have been dedicating most of your time to?"
+    "follow_up_question": "What will you have been dedicating most of your time to?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -237,7 +295,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Reflection",
     "main_question": "When you look back on your life in the future, what will you have achieved that matters most?",
-    "follow_up": "What will you have been doing throughout your life that made the biggest difference?"
+    "follow_up_question": "What will you have been doing throughout your life that made the biggest difference?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -245,7 +305,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Languages",
     "main_question": "By this time next year, how long will you have been learning English?",
-    "follow_up": "What do you think will have improved the most?"
+    "follow_up_question": "What do you think will have improved the most?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -253,7 +315,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "School",
     "main_question": "By the end of this school year, how long will you have been studying at your current school?",
-    "follow_up": "What will have changed since you started?"
+    "follow_up_question": "What will have changed since you started?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -261,7 +325,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Exercise",
     "main_question": "By next summer, how long will you have been exercising regularly?",
-    "follow_up": "What results do you expect to see?"
+    "follow_up_question": "What results do you expect to see?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -269,7 +335,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Music",
     "main_question": "By the end of the year, how long will you have been listening to your favourite artist?",
-    "follow_up": "Will your taste have changed?"
+    "follow_up_question": "Will your taste have changed?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -277,7 +345,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Reading",
     "main_question": "By December, how long will you have been trying to read more books?",
-    "follow_up": "Do you think you'll have reached your goal?"
+    "follow_up_question": "Do you think you'll have reached your goal?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -285,7 +355,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Technology",
     "main_question": "By 2035, how long will people have been using AI in everyday life?",
-    "follow_up": "How much will society have changed?"
+    "follow_up_question": "How much will society have changed?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -293,7 +365,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Career",
     "main_question": "By the age of 30, how long will you have been working?",
-    "follow_up": "What skills will you have developed?"
+    "follow_up_question": "What skills will you have developed?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -301,7 +375,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Friendship",
     "main_question": "By the end of secondary school, how long will you have been friends with your best friend?",
-    "follow_up": "What memories will you have made together?"
+    "follow_up_question": "What memories will you have made together?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -309,7 +385,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Family",
     "main_question": "By next Christmas, how long will your family have been living in your current home?",
-    "follow_up": "Will anything have changed?"
+    "follow_up_question": "Will anything have changed?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -317,7 +395,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Gaming",
     "main_question": "By the end of the holidays, how long will you have been playing your favourite game?",
-    "follow_up": "Will you still enjoy it?"
+    "follow_up_question": "Will you still enjoy it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -325,7 +405,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Environment",
     "main_question": "By 2050, how long will scientists have been studying climate change?",
-    "follow_up": "What progress will they have made?"
+    "follow_up_question": "What progress will they have made?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -333,7 +415,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Health",
     "main_question": "By the end of the year, how long will you have been trying to live more healthily?",
-    "follow_up": "Will it have become a habit?"
+    "follow_up_question": "Will it have become a habit?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -341,7 +425,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Travel",
     "main_question": "By the time you're 40, how long will you have been travelling regularly?",
-    "follow_up": "Which places will have impressed you most?"
+    "follow_up_question": "Which places will have impressed you most?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -349,7 +435,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Work",
     "main_question": "By retirement, how many years will you have been working?",
-    "follow_up": "Will you be ready for a break?"
+    "follow_up_question": "Will you be ready for a break?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -357,7 +445,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Social Media",
     "main_question": "By 2030, how long will teenagers have been using social media?",
-    "follow_up": "Do you think their habits will have changed?"
+    "follow_up_question": "Do you think their habits will have changed?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -365,7 +455,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Education",
     "main_question": "By the end of university, how long will you have been studying your subject?",
-    "follow_up": "What will you have learnt?"
+    "follow_up_question": "What will you have learnt?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -373,7 +465,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Sport",
     "main_question": "By the next Olympics, how long will elite athletes have been preparing?",
-    "follow_up": "Will training methods have changed?"
+    "follow_up_question": "Will training methods have changed?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -381,7 +475,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Cities",
     "main_question": "By 2050, how long will people have been building smart cities?",
-    "follow_up": "What improvements will they have made?"
+    "follow_up_question": "What improvements will they have made?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -389,7 +485,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Food",
     "main_question": "By next summer, how long will you have been trying to eat more healthily?",
-    "follow_up": "Will your eating habits have changed permanently?"
+    "follow_up_question": "Will your eating habits have changed permanently?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -397,7 +495,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Life",
     "main_question": "By the time you're 50, what activity do you think you will have been doing for the longest?",
-    "follow_up": "Why do you think you'll stick with it?"
+    "follow_up_question": "Why do you think you'll stick with it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -405,7 +505,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Technology",
     "main_question": "By 2040, how long will people have been working remotely?",
-    "follow_up": "How will workplaces have changed?"
+    "follow_up_question": "How will workplaces have changed?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -413,7 +515,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Pets",
     "main_question": "By next year, how long will you have been looking after your pet?",
-    "follow_up": "What will you have learnt?"
+    "follow_up_question": "What will you have learnt?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -421,7 +525,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Hobbies",
     "main_question": "By next Christmas, how long will you have been practising your favourite hobby?",
-    "follow_up": "How much better will you have become?"
+    "follow_up_question": "How much better will you have become?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -429,7 +535,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Learning",
     "main_question": "By the end of this course, how long will you have been learning this topic?",
-    "follow_up": "What has been the hardest part?"
+    "follow_up_question": "What has been the hardest part?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -437,7 +545,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Climate",
     "main_question": "By 2100, how long will scientists have been warning people about climate change?",
-    "follow_up": "Will governments have listened?"
+    "follow_up_question": "Will governments have listened?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -445,7 +555,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Space",
     "main_question": "By the end of this century, how long will humans have been exploring space?",
-    "follow_up": "What discoveries will they have made?"
+    "follow_up_question": "What discoveries will they have made?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -453,7 +565,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Goals",
     "main_question": "By the time you're 35, how long will you have been working towards your biggest dream?",
-    "follow_up": "Do you think you'll have achieved it?"
+    "follow_up_question": "Do you think you'll have achieved it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -461,7 +575,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Habits",
     "main_question": "By next year, how long will you have been trying to build your best habit?",
-    "follow_up": "Will it feel natural by then?"
+    "follow_up_question": "Will it feel natural by then?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -469,7 +585,9 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Life",
     "main_question": "By retirement, what will you have been doing for most of your life?",
-    "follow_up": "Will it have been worth it?"
+    "follow_up_question": "Will it have been worth it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -477,6 +595,8 @@
     "topic": "Future Perfect & Future Perfect Continuous",
     "category": "Reflection",
     "main_question": "By the end of your life, what passion do you hope you will have been following for the longest?",
-    "follow_up": "Why is it so important to you?"
+    "follow_up_question": "Why is it so important to you?",
+    "free": false,
+    "teacher_default": true
   }
 ]

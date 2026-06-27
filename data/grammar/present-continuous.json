@@ -5,7 +5,9 @@
     "topic": "Present Continuous",
     "category": "Right Now",
     "main_question": "What are you thinking about right now?",
-    "follow_up": "Why are you thinking about it?"
+    "follow_up_question": "Why are you thinking about it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -13,7 +15,9 @@
     "topic": "Present Continuous",
     "category": "Today",
     "main_question": "What are you doing after this lesson?",
-    "follow_up": "Are you looking forward to it?"
+    "follow_up_question": "Are you looking forward to it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -21,7 +25,9 @@
     "topic": "Present Continuous",
     "category": "School",
     "main_question": "What are you studying at school this week?",
-    "follow_up": "Which subject are you enjoying most?"
+    "follow_up_question": "Which subject are you enjoying most?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -29,7 +35,9 @@
     "topic": "Present Continuous",
     "category": "Projects",
     "main_question": "What project are you working on at the moment?",
-    "follow_up": "Is it difficult?"
+    "follow_up_question": "Is it difficult?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -37,7 +45,9 @@
     "topic": "Present Continuous",
     "category": "Reading",
     "main_question": "What book are you reading at the moment?",
-    "follow_up": "Would you recommend it?"
+    "follow_up_question": "Would you recommend it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -45,7 +55,9 @@
     "topic": "Present Continuous",
     "category": "TV",
     "main_question": "What series are you watching these days?",
-    "follow_up": "Why are you enjoying it?"
+    "follow_up_question": "Why are you enjoying it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -53,7 +65,9 @@
     "topic": "Present Continuous",
     "category": "Music",
     "main_question": "What songs are you listening to a lot at the moment?",
-    "follow_up": "How did you discover them?"
+    "follow_up_question": "How did you discover them?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -61,7 +75,9 @@
     "topic": "Present Continuous",
     "category": "Learning",
     "main_question": "What new skill are you learning right now?",
-    "follow_up": "Why did you choose it?"
+    "follow_up_question": "Why did you choose it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -69,7 +85,9 @@
     "topic": "Present Continuous",
     "category": "Technology",
     "main_question": "Are you using any new apps these days?",
-    "follow_up": "What do they help you do?"
+    "follow_up_question": "What do they help you do?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -77,7 +95,9 @@
     "topic": "Present Continuous",
     "category": "Health",
     "main_question": "Are you trying to be healthier at the moment?",
-    "follow_up": "What are you changing?"
+    "follow_up_question": "What are you changing?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -85,7 +105,9 @@
     "topic": "Present Continuous",
     "category": "Exercise",
     "main_question": "Are you doing any sport at the moment?",
-    "follow_up": "How often are you training?"
+    "follow_up_question": "How often are you training?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -93,7 +115,9 @@
     "topic": "Present Continuous",
     "category": "Family",
     "main_question": "What is your family planning at the moment?",
-    "follow_up": "Are you excited?"
+    "follow_up_question": "Are you excited?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -101,7 +125,9 @@
     "topic": "Present Continuous",
     "category": "Friends",
     "main_question": "Who are you spending the most time with these days?",
-    "follow_up": "What are you usually doing together?"
+    "follow_up_question": "What are you usually doing together?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -109,7 +135,9 @@
     "topic": "Present Continuous",
     "category": "Weather",
     "main_question": "How is the weather changing this week?",
-    "follow_up": "How is it affecting your plans?"
+    "follow_up_question": "How is it affecting your plans?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -117,7 +145,9 @@
     "topic": "Present Continuous",
     "category": "Home",
     "main_question": "Is anything changing in your home at the moment?",
-    "follow_up": "How do you feel about it?"
+    "follow_up_question": "How do you feel about it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -125,7 +155,9 @@
     "topic": "Present Continuous",
     "category": "Shopping",
     "main_question": "Are you saving up for anything right now?",
-    "follow_up": "How much do you still need?"
+    "follow_up_question": "How much do you still need?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -133,7 +165,9 @@
     "topic": "Present Continuous",
     "category": "Fashion",
     "main_question": "Are fashions changing quickly these days?",
-    "follow_up": "Do you follow trends?"
+    "follow_up_question": "Do you follow trends?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -141,7 +175,9 @@
     "topic": "Present Continuous",
     "category": "Environment",
     "main_question": "Is your town changing at the moment?",
-    "follow_up": "Is it changing for the better?"
+    "follow_up_question": "Is it changing for the better?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -149,7 +185,9 @@
     "topic": "Present Continuous",
     "category": "Travel",
     "main_question": "Are you planning any trips at the moment?",
-    "follow_up": "Where are you hoping to go?"
+    "follow_up_question": "Where are you hoping to go?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -157,7 +195,9 @@
     "topic": "Present Continuous",
     "category": "Goals",
     "main_question": "What are you trying to improve this year?",
-    "follow_up": "Is it going well?"
+    "follow_up_question": "Is it going well?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -165,7 +205,9 @@
     "topic": "Present Continuous",
     "category": "Languages",
     "main_question": "Are you learning any languages at the moment?",
-    "follow_up": "Which part is the hardest?"
+    "follow_up_question": "Which part is the hardest?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -173,7 +215,9 @@
     "topic": "Present Continuous",
     "category": "Pets",
     "main_question": "Is your pet learning any new tricks?",
-    "follow_up": "Who is teaching it?"
+    "follow_up_question": "Who is teaching it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -181,7 +225,9 @@
     "topic": "Present Continuous",
     "category": "Dreams",
     "main_question": "Are your dreams changing as you get older?",
-    "follow_up": "In what way?"
+    "follow_up_question": "In what way?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -189,7 +235,9 @@
     "topic": "Present Continuous",
     "category": "Food",
     "main_question": "Are you eating differently these days?",
-    "follow_up": "Why are you changing your diet?"
+    "follow_up_question": "Why are you changing your diet?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -197,7 +245,9 @@
     "topic": "Present Continuous",
     "category": "Gaming",
     "main_question": "What game are you playing most at the moment?",
-    "follow_up": "Who are you playing with?"
+    "follow_up_question": "Who are you playing with?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -205,7 +255,9 @@
     "topic": "Present Continuous",
     "category": "Weekend",
     "main_question": "What are you doing this weekend?",
-    "follow_up": "Who are you going with?"
+    "follow_up_question": "Who are you going with?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -213,7 +265,9 @@
     "topic": "Present Continuous",
     "category": "Plans",
     "main_question": "What are you looking forward to this month?",
-    "follow_up": "Why is it important?"
+    "follow_up_question": "Why is it important?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -221,7 +275,9 @@
     "topic": "Present Continuous",
     "category": "Life",
     "main_question": "What is changing in your life right now?",
-    "follow_up": "How do you feel about the change?"
+    "follow_up_question": "How do you feel about the change?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -229,7 +285,9 @@
     "topic": "Present Continuous",
     "category": "Future",
     "main_question": "What are you working towards at the moment?",
-    "follow_up": "When do you hope to achieve it?"
+    "follow_up_question": "When do you hope to achieve it?",
+    "free": false,
+    "teacher_default": true
   },
   {
     "type": "Grammar",
@@ -237,6 +295,8 @@
     "topic": "Present Continuous",
     "category": "Today",
     "main_question": "How are you feeling today?",
-    "follow_up": "What's making you feel that way?"
+    "follow_up_question": "What's making you feel that way?",
+    "free": false,
+    "teacher_default": true
   }
 ]

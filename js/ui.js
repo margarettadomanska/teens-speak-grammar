@@ -30,6 +30,10 @@ function setupUI() {
         .getElementById("help-btn")
         .addEventListener("click", openHelp);
 
+document
+    .getElementById("revision-btn")
+    .addEventListener("click", openRevisionBuilder);
+
     document
         .getElementById("close-help-btn")
         .addEventListener("click", closeHelp);
@@ -171,5 +175,246 @@ function setupSwipe() {
     hammer.on("swipeup", nextCard);
 
     hammer.on("swipedown", previousCard);
+
+}
+
+function openRevisionBuilder() {
+
+    document
+        .getElementById("card")
+        .classList.add("revision-mode");
+
+    renderRevisionBuilder();
+
+}
+
+function renderRevisionBuilder() {
+
+    const card = document.getElementById("card");
+
+    // Get unique topics for the current type
+    const topics = [
+        ...new Set(
+            state.questions
+                .filter(question => question.type === state.currentType)
+                .map(question => question.topic)
+        )
+    ].sort();
+
+    card.innerHTML = `
+    <h2>Create Revision</h2>
+
+    <p class="hint">
+        Choose one or more topics.
+    </p>
+
+    <div id="revision-topics"></div>
+
+    <h3>Questions</h3>
+
+    <div id="revision-question-count"></div>
+
+<div id="revision-summary"></div>
+
+<button id="start-revision-btn" disabled>
+    Start Revision
+</button>
+
+<button id="cancel-revision-btn">
+    Cancel
+</button>
+
+`;
+
+    const topicContainer = document.getElementById("revision-topics");
+const questionContainer = document.getElementById("revision-question-count");
+const summary =
+    document.getElementById("revision-summary");
+
+const availableQuestions = state.questions.filter(question =>
+
+    question.type === state.currentType &&
+    state.selectedRevisionTopics.includes(question.topic)
+
+).length;
+
+summary.innerHTML = `
+    <strong>${state.selectedRevisionTopics.length}</strong>
+    topic${state.selectedRevisionTopics.length === 1 ? "" : "s"} selected
+    &nbsp;&nbsp;•&nbsp;&nbsp;
+    <strong>${availableQuestions}</strong>
+    questions available
+`;
+
+const startButton = document.getElementById("start-revision-btn");
+
+startButton.disabled = !(
+    state.selectedRevisionTopics.length > 0 &&
+    state.revisionQuestionCount !== null
+);
+
+topics.forEach(topic => {
+
+    const button = document.createElement("button");
+
+    button.textContent = topic;
+
+    if (state.selectedRevisionTopics.includes(topic)) {
+        button.classList.add("active-topic");
+    }
+
+    button.addEventListener("click", () => {
+
+        if (state.selectedRevisionTopics.includes(topic)) {
+
+            state.selectedRevisionTopics =
+                state.selectedRevisionTopics.filter(t => t !== topic);
+
+        } else {
+
+            state.selectedRevisionTopics.push(topic);
+
+        }
+
+        renderRevisionBuilder();
+
+    });
+
+    topicContainer.appendChild(button);
+
+});
+
+[10, 20, 30, 50].forEach(number => {
+
+    const button = document.createElement("button");
+
+    button.textContent = number;
+
+    if (state.revisionQuestionCount === number) {
+        button.classList.add("active-topic");
+    }
+
+    button.addEventListener("click", () => {
+
+        state.revisionQuestionCount = number;
+
+        renderRevisionBuilder();
+
+    });
+
+    questionContainer.appendChild(button);
+
+});        
+         document
+        .getElementById("cancel-revision-btn")
+        .addEventListener("click", closeRevisionBuilder);
+
+         document
+        .getElementById("start-revision-btn")
+        .addEventListener("click", startRevision);
+
+}
+
+function closeRevisionBuilder() {
+
+    document
+        .getElementById("card")
+        .classList.remove("revision-mode");
+
+    state.selectedRevisionTopics = [];
+    state.revisionQuestionCount = null;
+
+    renderWelcomeScreen();
+
+}
+
+function renderWelcomeScreen() {
+
+    const card = document.getElementById("card");
+
+    card.innerHTML = `
+        <h2>Select a topic</h2>
+        <p class="hint">to see a question</p>
+    `;
+
+}
+
+function startRevision() {
+
+    const selectedQuestions = state.questions.filter(question =>
+
+        question.type === state.currentType &&
+        state.selectedRevisionTopics.includes(question.topic)
+
+    );
+
+const questionsByTopic = {};
+
+selectedQuestions.forEach(question => {
+
+    if (!questionsByTopic[question.topic]) {
+        questionsByTopic[question.topic] = [];
+    }
+
+    questionsByTopic[question.topic].push(question);
+
+});
+
+const topicNames = Object.keys(questionsByTopic);
+
+const totalQuestions = state.revisionQuestionCount;
+
+const questionsPerTopic = Math.floor(
+    totalQuestions / topicNames.length
+);
+
+const remainingQuestions =
+    totalQuestions % topicNames.length;
+
+const revisionQuestions = [];
+
+topicNames.forEach(topic => {
+
+    const topicQuestions = [...questionsByTopic[topic]];
+
+    topicQuestions.sort(() => Math.random() - 0.5);
+
+    revisionQuestions.push(
+        ...topicQuestions.slice(0, questionsPerTopic)
+    );
+
+});
+
+const shuffledTopics = [...topicNames];
+
+shuffledTopics.sort(() => Math.random() - 0.5);
+
+for (let i = 0; i < remainingQuestions; i++) {
+
+    const topic = shuffledTopics[i];
+
+    const topicQuestions = questionsByTopic[topic];
+
+    const alreadyChosen = revisionQuestions.filter(
+        question => question.topic === topic
+    ).length;
+
+    if (topicQuestions[alreadyChosen]) {
+        revisionQuestions.push(topicQuestions[alreadyChosen]);
+    }
+
+}
+
+    revisionQuestions.sort(() => Math.random() - 0.5);
+
+    state.filteredQuestions = revisionQuestions;
+
+    state.currentTopic = "Revision";
+
+    state.currentIndex = 0;
+
+    closeRevisionBuilder();
+
+    showCard();
 
 }
