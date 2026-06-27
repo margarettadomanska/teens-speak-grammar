@@ -1,0 +1,242 @@
+[
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "School",
+    "main_question": "What have you got used to at your school that was difficult at first?",
+    "follow_up": "How long did it take?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Morning Routine",
+    "main_question": "Are you used to getting up early?",
+    "follow_up": "Would you prefer a different routine?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Technology",
+    "main_question": "Have you got used to using AI tools?",
+    "follow_up": "How have they changed your life?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Food",
+    "main_question": "Is there any food you couldn't eat before but have got used to?",
+    "follow_up": "Do you enjoy it now?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Languages",
+    "main_question": "Are you used to speaking English in class?",
+    "follow_up": "Was it difficult at first?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Family",
+    "main_question": "Have you got used to doing any new jobs at home?",
+    "follow_up": "Which one was hardest?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Travel",
+    "main_question": "Could you get used to living in another country?",
+    "follow_up": "Which country would you choose?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Friends",
+    "main_question": "Have you ever had to get used to a new group of friends?",
+    "follow_up": "How did you feel?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Weather",
+    "main_question": "Are you used to hot summers?",
+    "follow_up": "Which weather is hardest for you?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "School",
+    "main_question": "Have you got used to online homework?",
+    "follow_up": "Do you prefer it?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Exercise",
+    "main_question": "Could you get used to exercising every day?",
+    "follow_up": "What would motivate you?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Sleep",
+    "main_question": "Are you used to staying up late?",
+    "follow_up": "Does it affect you?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Technology",
+    "main_question": "Have your grandparents got used to smartphones?",
+    "follow_up": "Was it easy for them?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Transport",
+    "main_question": "Would you get used to cycling everywhere instead of driving?",
+    "follow_up": "Why or why not?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Pets",
+    "main_question": "Are you used to looking after animals?",
+    "follow_up": "Which animals would you like to have?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Life",
+    "main_question": "What's the hardest change you've had to get used to?",
+    "follow_up": "How long did it take?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Music",
+    "main_question": "Have you ever got used to a type of music you didn't like before?",
+    "follow_up": "What changed your mind?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Reading",
+    "main_question": "Are you used to reading on a screen instead of paper?",
+    "follow_up": "Which do you prefer?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Gaming",
+    "main_question": "How long does it take you to get used to a new game?",
+    "follow_up": "Do you enjoy learning the rules?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Travel",
+    "main_question": "Could you get used to travelling alone?",
+    "follow_up": "What would be the biggest challenge?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Food",
+    "main_question": "Are you used to eating spicy food?",
+    "follow_up": "Would you like to try hotter food?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Sport",
+    "main_question": "Have you ever got used to a difficult sport or activity?",
+    "follow_up": "Was it worth the effort?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Free Time",
+    "main_question": "Could you get used to having much less free time?",
+    "follow_up": "How would you manage?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "School",
+    "main_question": "Have you got used to giving presentations?",
+    "follow_up": "Do you still feel nervous?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Social Media",
+    "main_question": "Are you used to communicating online every day?",
+    "follow_up": "Do you prefer face-to-face conversations?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Future",
+    "main_question": "What do you think you'll have to get used to as an adult?",
+    "follow_up": "Which change will be the hardest?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Technology",
+    "main_question": "Do you think people will get used to robots doing more jobs?",
+    "follow_up": "Would that be a good thing?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Life",
+    "main_question": "What have you never got used to?",
+    "follow_up": "Why do you think that is?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Home",
+    "main_question": "Are you used to doing household chores?",
+    "follow_up": "Which one do you mind the least?"
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Be & Get Used To",
+    "category": "Reflection",
+    "main_question": "What advice would you give someone who is trying to get used to a big life change?",
+    "follow_up": "Have you ever followed similar advice yourself?"
+  }
+]

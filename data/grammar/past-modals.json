@@ -1,0 +1,302 @@
+[
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "School",
+    "main_question": "What's the worst mark you've ever got? What could you have done differently?",
+    "follow_up_question": "Should you have studied more?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Travel",
+    "main_question": "Have you ever missed a bus, train or plane? What might have happened if you hadn't?",
+    "follow_up_question": "What should you have done differently?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Technology",
+    "main_question": "Have you ever lost important data? What could you have done to avoid it?",
+    "follow_up_question": "Should you have made a backup?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Friends",
+    "main_question": "Have you ever misunderstood a friend? What might have caused the misunderstanding?",
+    "follow_up_question": "What could you have done differently?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Food",
+    "main_question": "Have you ever cooked something that went badly wrong?",
+    "follow_up_question": "What must you have forgotten?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "School",
+    "main_question": "Think of a teacher who was angry one day. Why might they have been upset?",
+    "follow_up_question": "Could the students have behaved differently?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Life",
+    "main_question": "What's a decision you regret?",
+    "follow_up_question": "What should you have done instead?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Sports",
+    "main_question": "Have you ever lost a game unfairly?",
+    "follow_up_question": "What might have changed the result?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Travel",
+    "main_question": "Describe a holiday that didn't go as planned.",
+    "follow_up_question": "What could have made it better?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Technology",
+    "main_question": "Have you ever accidentally deleted something important?",
+    "follow_up_question": "What should you have done first?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Family",
+    "main_question": "Have your parents ever surprised you with something?",
+    "follow_up_question": "How must they have planned it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Films",
+    "main_question": "Think of a film with a surprising ending.",
+    "follow_up_question": "What clues might you have missed?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Music",
+    "main_question": "Have you ever gone to a concert?",
+    "follow_up_question": "What must the performers have felt before going on stage?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Animals",
+    "main_question": "Have you ever lost a pet?",
+    "follow_up_question": "Where might it have gone?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "School",
+    "main_question": "Have you ever forgotten your homework?",
+    "follow_up_question": "What excuse could you have given?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Weather",
+    "main_question": "Think of a day with terrible weather.",
+    "follow_up_question": "What should people have done to stay safe?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Shopping",
+    "main_question": "Have you ever bought something you didn't need?",
+    "follow_up_question": "Why might you have bought it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Dreams",
+    "main_question": "Think of a goal you didn't achieve.",
+    "follow_up_question": "What could you have done differently?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Gaming",
+    "main_question": "Have you ever lost a game at the last moment?",
+    "follow_up_question": "What mistake must you have made?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Crime",
+    "main_question": "Imagine someone stole a bike from outside a school.",
+    "follow_up_question": "Who might have taken it and why?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Mystery",
+    "main_question": "If you found an empty classroom with a broken window, what might have happened?",
+    "follow_up_question": "Who could have been responsible?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Life",
+    "main_question": "What's the luckiest thing that's ever happened to you?",
+    "follow_up_question": "What might have happened if things had gone differently?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "School",
+    "main_question": "Have you ever been blamed for something you didn't do?",
+    "follow_up_question": "Why can't people have believed you?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Health",
+    "main_question": "Have you ever felt ill after eating something?",
+    "follow_up_question": "What might have caused it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Technology",
+    "main_question": "Have you ever forgotten your password?",
+    "follow_up_question": "What should you have done to remember it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Travel",
+    "main_question": "Imagine you arrived at the airport without your passport.",
+    "follow_up_question": "What could you have done to avoid the problem?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Social Media",
+    "main_question": "Have you ever sent a message to the wrong person?",
+    "follow_up_question": "What must they have thought?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Family",
+    "main_question": "Think about a family argument.",
+    "follow_up_question": "What should everyone involved have done?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Life",
+    "main_question": "What's something you worried about that turned out to be fine?",
+    "follow_up_question": "You needn't have worried—why?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B2",
+    "topic": "Past Modals",
+    "category": "Reflection",
+    "main_question": "If you could relive one day from your life, which would it be?",
+    "follow_up_question": "What would you have done differently?",
+    "free": false,
+    "teacher_default": true
+  }
+]

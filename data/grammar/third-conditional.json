@@ -1,0 +1,302 @@
+[
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "School",
+    "main_question": "If you had known about your last test earlier, how would you have prepared?",
+    "follow_up_question": "Do you think you would have got a better mark?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Homework",
+    "main_question": "If you had forgotten to do your homework yesterday, what would your teacher have said?",
+    "follow_up_question": "How would you have explained it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Morning Routine",
+    "main_question": "If your alarm hadn't gone off this morning, what would have happened?",
+    "follow_up_question": "Would you have been late for school?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Technology",
+    "main_question": "If you had left your phone at home yesterday, what would you have done?",
+    "follow_up_question": "Would it have caused any problems?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Friendship",
+    "main_question": "If you had never met your best friend, how would your life have been different?",
+    "follow_up_question": "Who do you think you would have become friends with instead?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Weather",
+    "main_question": "If it hadn't rained during your last holiday, what would you have done?",
+    "follow_up_question": "Would it have been a better holiday?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "School Trip",
+    "main_question": "If your last school trip had been cancelled, what would your class have done instead?",
+    "follow_up_question": "Would you have been disappointed?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Sport",
+    "main_question": "If your favourite team had scored one more goal in their last match, what would have happened?",
+    "follow_up_question": "How would the fans have celebrated?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Birthday",
+    "main_question": "If you had forgotten your best friend's birthday, what would they have done?",
+    "follow_up_question": "How would you have apologised?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "School",
+    "main_question": "If your teacher had forgotten about a test, what would your class have done?",
+    "follow_up_question": "Would anyone have reminded them?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Technology",
+    "main_question": "If the internet had stopped working during your last online lesson, what would have happened?",
+    "follow_up_question": "How would your teacher have continued the lesson?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Films",
+    "main_question": "If your favourite film had ended differently, would you have liked it more?",
+    "follow_up_question": "What ending would you have preferred?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Books",
+    "main_question": "If the main character in your favourite book had made a different decision, what would have happened?",
+    "follow_up_question": "Would the story have been better?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Gaming",
+    "main_question": "If you had designed your favourite video game, what would you have changed?",
+    "follow_up_question": "Would more people have enjoyed playing it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Music",
+    "main_question": "If you had gone to your favourite artist's last concert, what would have been the best part?",
+    "follow_up_question": "Who would you have gone with?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "School",
+    "main_question": "If there hadn't been exams last year, how would school have been different?",
+    "follow_up_question": "Would students have learned as much?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Pets",
+    "main_question": "If you had grown up with a pet, how would your childhood have been different?",
+    "follow_up_question": "What would you have enjoyed the most?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Languages",
+    "main_question": "If you had started learning English when you were younger, how would your English be different today?",
+    "follow_up_question": "What would have been easier for you?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "School",
+    "main_question": "If you had been able to choose all your subjects last year, which ones would you have chosen?",
+    "follow_up_question": "Would this year have been more enjoyable?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Family",
+    "main_question": "If your family had moved to another country when you were younger, how would your life have been different?",
+    "follow_up_question": "What would you have missed the most?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Food",
+    "main_question": "If you had never tried your favourite food, what do you think you would have enjoyed instead?",
+    "follow_up_question": "Would you have discovered your favourite food later?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "School",
+    "main_question": "What would have happened if everyone in your class had forgotten to do their homework?",
+    "follow_up_question": "How would your teacher have reacted?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Group Projects",
+    "main_question": "If everyone in your last group project had worked harder, how would the result have been different?",
+    "follow_up_question": "Would everyone have been happier with the final result?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Weather",
+    "main_question": "What would you have done if it had snowed in your town last winter?",
+    "follow_up_question": "Who would you have spent the day with?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Shopping",
+    "main_question": "If you had bought something that you later regretted, what would you have done?",
+    "follow_up_question": "Would you have tried to return it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "School",
+    "main_question": "If your school had finished an hour earlier yesterday, what would you have done?",
+    "follow_up_question": "Would you have spent the extra time differently?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Social Media",
+    "main_question": "If social media hadn't existed when your parents were teenagers, how would they have stayed in touch?",
+    "follow_up_question": "Would friendships have been different?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "School",
+    "main_question": "If you had been absent from your last English lesson, what would you have missed?",
+    "follow_up_question": "How would you have caught up afterwards?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Life",
+    "main_question": "If you had known last year what you know now, what would you have done differently?",
+    "follow_up_question": "What advice would you have given yourself?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Third Conditional",
+    "category": "Friends",
+    "main_question": "If you had said 'yes' to something you turned down recently, how might things have been different?",
+    "follow_up_question": "Do you think you would have made the same decision again?",
+    "free": false,
+    "teacher_default": true
+  }
+]

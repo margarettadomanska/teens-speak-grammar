@@ -1,0 +1,262 @@
+[
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Passive Voice",
+    "category": "Processes",
+    "main_question": "Describe how chocolate is made.",
+    "follow_up_question": "What ingredients are used?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Passive Voice",
+    "category": "Daily Life",
+    "main_question": "Explain how your school rules are decided.",
+    "follow_up_question": "Who are the rules approved by?",
+    "free": false,
+    "teacher_default": true
+  },
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Social Media",
+  "main_question": "How are trends created on TikTok or Instagram?",
+  "follow_up_question": "How are viral videos shared so quickly?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Gaming",
+  "main_question": "How are new video games tested before they are released?",
+  "follow_up_question": "How are updates added after the game is launched?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "School Life",
+  "main_question": "How are class leaders chosen in your school?",
+  "follow_up_question": "How are decisions usually made in your class?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Technology",
+  "main_question": "How is artificial intelligence used in schools today?",
+  "follow_up_question": "How are students’ answers checked online?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Music",
+  "main_question": "How are songs recorded and produced today?",
+  "follow_up_question": "How are music videos created?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Online Safety",
+  "main_question": "How is personal information protected online?",
+  "follow_up_question": "What should be done if someone is bullied online?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Fashion",
+  "main_question": "How are fashion trends spread among teenagers?",
+  "follow_up_question": "How are clothes recycled or reused today?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Environment",
+  "main_question": "How is plastic waste reduced in your country?",
+  "follow_up_question": "What products are made from recycled materials?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Streaming",
+  "main_question": "How are films and series recommended to you online?",
+  "follow_up_question": "How is your viewing history used?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "School Projects",
+  "main_question": "How are group projects organised in your class?",
+  "follow_up_question": "How is the final grade decided?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Sports",
+  "main_question": "How are big sports events organised in your country?",
+  "follow_up_question": "How are winners celebrated?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Apps",
+  "main_question": "How are new apps developed and improved?",
+  "follow_up_question": "How is user feedback collected?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "AI & Technology",
+  "main_question": "How is artificial intelligence used in video games today?",
+  "follow_up_question": "How are characters controlled by AI made more realistic?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Social Media",
+  "main_question": "How are influencers chosen by brands?",
+  "follow_up_question": "How are sponsored posts usually marked?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "School Rules",
+  "main_question": "How should mobile phones be used at school?",
+  "follow_up_question": "What rules should be changed?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Gaming",
+  "main_question": "How are online tournaments organised?",
+  "follow_up_question": "How are prizes given to the winners?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Environment",
+  "main_question": "How can energy be saved at school?",
+  "follow_up_question": "What changes should be introduced?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Online Safety",
+  "main_question": "How should fake news be controlled online?",
+  "follow_up_question": "How can teenagers be protected from misinformation?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Streaming",
+  "main_question": "How are new series promoted before they are released?",
+  "follow_up_question": "How are actors chosen for main roles?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Apps",
+  "main_question": "How are privacy settings changed on social media apps?",
+  "follow_up_question": "Why should they be checked regularly?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "School Life",
+  "main_question": "How are new students welcomed at your school?",
+  "follow_up_question": "What activities are organised for them?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Music Industry",
+  "main_question": "How are concert tickets sold today?",
+  "follow_up_question": "How are fans informed about tour dates?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Fashion & Identity",
+  "main_question": "How are beauty standards influenced by social media?",
+  "follow_up_question": "How can positive messages be shared instead?",
+  "free": false,
+  "teacher_default": true
+},
+{
+  "type": "Grammar",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "category": "Exams",
+  "main_question": "How are important exams prepared in your country?",
+  "follow_up_question": "How are exam papers corrected?",
+  "free": false,
+  "teacher_default": true
+}
+]

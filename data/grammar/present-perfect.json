@@ -1,0 +1,302 @@
+[
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Experiences",
+    "main_question": "What's the most exciting place you've ever visited?",
+    "follow_up_question": "Would you like to go there again?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Travel",
+    "main_question": "Have you ever travelled alone?",
+    "follow_up_question": "Would you like to?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Food",
+    "main_question": "What's the strangest food you've ever eaten?",
+    "follow_up_question": "Would you eat it again?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Films",
+    "main_question": "What's the best film you've seen this year?",
+    "follow_up_question": "Why has it impressed you?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Books",
+    "main_question": "Have you read any good books recently?",
+    "follow_up_question": "Which one would you recommend?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Music",
+    "main_question": "Have you discovered any new artists recently?",
+    "follow_up_question": "Which songs do you like most?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "School",
+    "main_question": "What's the hardest thing you've learnt at school this year?",
+    "follow_up_question": "Why was it difficult?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Languages",
+    "main_question": "How has your English improved this year?",
+    "follow_up_question": "Which skill has improved the most?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Technology",
+    "main_question": "Have you ever broken your phone?",
+    "follow_up_question": "What happened?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Social Media",
+    "main_question": "Have you ever posted something you later regretted?",
+    "follow_up_question": "What did you learn from it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Friends",
+    "main_question": "Have you made any new friends this year?",
+    "follow_up_question": "How did you meet them?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Family",
+    "main_question": "What's the nicest thing someone in your family has done for you recently?",
+    "follow_up_question": "How did it make you feel?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Achievements",
+    "main_question": "What's something you've achieved that you're proud of?",
+    "follow_up_question": "How long did it take?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Dreams",
+    "main_question": "Have you ever achieved a goal you once thought was impossible?",
+    "follow_up_question": "How did you feel afterwards?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Sports",
+    "main_question": "Have you ever won a competition?",
+    "follow_up_question": "What was it?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Hobbies",
+    "main_question": "Have you started any new hobbies recently?",
+    "follow_up_question": "Would you recommend them?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Gaming",
+    "main_question": "What's the best game you've ever played?",
+    "follow_up_question": "Why do you like it so much?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Travel",
+    "main_question": "Have you ever missed a train, bus or plane?",
+    "follow_up_question": "What did you do?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Learning",
+    "main_question": "What's the most useful thing you've learnt outside school?",
+    "follow_up_question": "Who taught you?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Food",
+    "main_question": "Have you ever cooked a meal by yourself?",
+    "follow_up_question": "How did it turn out?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Animals",
+    "main_question": "Have you ever looked after someone else's pet?",
+    "follow_up_question": "Would you do it again?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Volunteering",
+    "main_question": "Have you ever helped in a charity event?",
+    "follow_up_question": "Would you like to do more volunteering?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Weather",
+    "main_question": "What's the hottest or coldest weather you've ever experienced?",
+    "follow_up_question": "How did you cope?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "School",
+    "main_question": "Have you ever forgotten an important homework assignment?",
+    "follow_up_question": "What happened next?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Life",
+    "main_question": "What's the biggest change that's happened in your life this year?",
+    "follow_up_question": "How has it affected you?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "News",
+    "main_question": "Have you heard any good news recently?",
+    "follow_up_question": "How did you react?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Goals",
+    "main_question": "Have you achieved any of your goals this year?",
+    "follow_up_question": "Which goal is still left?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Skills",
+    "main_question": "What's a skill you've learnt in the last few years?",
+    "follow_up_question": "How has it helped you?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Life",
+    "main_question": "Have you ever done something completely outside your comfort zone?",
+    "follow_up_question": "Would you do it again?",
+    "free": false,
+    "teacher_default": true
+  },
+  {
+    "type": "Grammar",
+    "level": "B1",
+    "topic": "Present Perfect",
+    "category": "Future",
+    "main_question": "What's something you haven't done yet but really want to do?",
+    "follow_up_question": "What's stopping you?",
+    "free": false,
+    "teacher_default": true
+  }
+]
