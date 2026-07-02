@@ -37,6 +37,8 @@ function showCard() {
 
   };
 
+
+
 }
 
 function nextCard() {

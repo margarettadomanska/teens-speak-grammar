@@ -109,9 +109,12 @@
   <!-- Tools -->
   <div class="tools">
   <button id="random-btn">🎲 Random</button>
-  <button id="presentation-btn">🖥 Presentation</button>
-</div>
 
+  <button id="presentation-btn">
+    🖥 Presentation
+  </button>
+
+</div>
 <button id="change-topic-btn" class="change-topic hidden">
   ← Change topic
 </button>
@@ -160,6 +163,27 @@
   <!-- Exit Button -->
   <button id="exit-btn" class="exit-btn">    ✕ Exit
   </button>
+
+<!-- Share Modal -->
+
+<div id="share-modal" class="help-modal hidden">
+  <div class="help-content">
+
+    <h3>📱 Share with Students</h3>
+
+    <p>
+      Students can open this revision on any device.
+    </p>
+
+    
+    <div id="share-result" class="hidden"></div>
+
+    <button id="close-share-btn">
+      Close
+    </button>
+
+  </div>
+</div>
 
 <!-- Help Modal -->
 <div id="help-modal" class="help-modal hidden">
@@ -221,6 +245,7 @@
 
 </div>
 
+<script src="js/qrcode.min.js"></script>
 <script src="js/state.js"></script>
 <script src="js/utils.js"></script>
 <script src="js/loader.js"></script>

@@ -20,6 +20,12 @@ const state = {
 
     selectedRevisionTopics: [],
 
-    revisionQuestionCount: null
+   revisionQuestionCount: null,
+
+currentRevision: [],
+
+currentRevisionSettings: null,
+
+openingSharedRevision: false
 
 };

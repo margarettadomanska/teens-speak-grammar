@@ -31,6 +31,19 @@ function setupUI() {
         .addEventListener("click", openHelp);
 
 document
+    .getElementById("close-share-btn")
+    .addEventListener("click", () => {
+
+
+        document
+            .getElementById("share-modal")
+            .classList.add("hidden");
+
+        showCard();
+
+    });
+
+document
     .getElementById("revision-btn")
     .addEventListener("click", openRevisionBuilder);
 
@@ -407,14 +420,159 @@ for (let i = 0; i < remainingQuestions; i++) {
 
     revisionQuestions.sort(() => Math.random() - 0.5);
 
-    state.filteredQuestions = revisionQuestions;
+state.currentRevision = [...revisionQuestions];
 
-    state.currentTopic = "Revision";
+state.currentRevisionSettings = {
+    type: state.currentType,
+    topics: [...state.selectedRevisionTopics],
+    count: state.revisionQuestionCount
+};
 
-    state.currentIndex = 0;
+state.filteredQuestions = revisionQuestions;
 
-    closeRevisionBuilder();
+state.currentTopic = "Revision";
+
+state.currentIndex = 0;
+
+document
+    .querySelector(".tools")
+    .classList.add("visible");
+
+document
+    .getElementById("change-topic-btn")
+    .classList.remove("hidden");
+
+document.body.classList.add("topic-active");
+
+closeRevisionBuilder();
+
+if (state.openingSharedRevision) {
+
+    state.openingSharedRevision = false;
 
     showCard();
+
+} else {
+
+    generateRevisionLink();
+
+    document
+        .getElementById("share-modal")
+        .classList.remove("hidden");
+
+}
+
+}
+
+function generateRevisionLink() {
+
+    const settings = state.currentRevisionSettings;
+
+    if (!settings) return;
+
+    const params = new URLSearchParams();
+
+    params.set("type", settings.type);
+    params.set("topics", settings.topics.join(","));
+    params.set("count", settings.count);
+
+    const url =
+        window.location.origin +
+        "/?" +
+        params.toString();
+
+    const result =
+        document.getElementById("share-result");
+
+    result.classList.remove("hidden");
+
+    result.innerHTML = `
+        <p><strong>Share with Students</strong></p>
+
+        <div class="share-link-row">
+
+            <input
+                id="share-link"
+                type="text"
+                readonly
+                value="${url}">
+
+            <button id="copy-link-btn">
+                📋 Copy
+            </button>
+
+        </div>
+
+        <div id="qr-container"></div>
+    `;
+
+    document
+        .getElementById("copy-link-btn")
+        .addEventListener("click", () => {
+
+            navigator.clipboard.writeText(url);
+
+            document
+                .getElementById("copy-link-btn")
+                .textContent = "✅ Copied";
+
+        });
+
+const qrContainer =
+    document.getElementById("qr-container");
+
+qrContainer.innerHTML = "";
+
+new QRCode(qrContainer, {
+    text: url,
+    width: 180,
+    height: 180
+});
+
+}
+
+function openSharedRevision() {
+
+    const params = new URLSearchParams(window.location.search);
+
+    const type = params.get("type");
+    const topics = params.get("topics");
+    const count = parseInt(params.get("count"));
+
+    if (!type || !topics || !count) {
+        return false;
+    }
+
+    state.currentType = type;
+
+    // Update tabs
+    document
+        .getElementById("grammar-tab")
+        .classList.toggle(
+            "active-tab",
+            type === "Grammar"
+        );
+
+    document
+        .getElementById("functional-tab")
+        .classList.toggle(
+            "active-tab",
+            type === "Functional Language"
+        );
+
+    renderTopics();
+
+    state.selectedRevisionTopics =
+    topics
+        .split(",")
+        .map(topic => topic.trim());
+
+state.revisionQuestionCount = count
+
+state.openingSharedRevision = true;
+
+startRevision();
+
+    return true;
 
 }

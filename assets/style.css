@@ -938,3 +938,52 @@ body.presentation-mode .timer-widget {
     transform: none;
 
 }
+
+.share-link-row{
+
+    display:flex;
+    gap:12px;
+    margin-top:12px;
+
+}
+
+.share-link-row input{
+
+    flex:1;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    border:1px solid #ddd;
+
+    font-size:15px;
+
+}
+
+.share-link-row button{
+
+    white-space:nowrap;
+
+}
+
+#qr-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin-top:30px;
+
+}
+
+#qr-container img,
+#qr-container canvas{
+
+    border-radius:12px;
+
+    background:white;
+
+    padding:12px;
+
+}
