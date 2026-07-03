@@ -1,26 +1,28 @@
 async function loadCategory(folder) {
 
-    const questions = [];
-
     const response = await fetch(`data/${folder}/index.json`);
-
     const topics = await response.json();
 
-    for (const topic of topics) {
+    const allQuestions = await Promise.all(
 
-        const fileResponse = await fetch(
-            `data/${folder}/${topic.filename}`
-        );
+        topics.map(async topic => {
 
-        const data = await fileResponse.json();
+            const response = await fetch(
+                `data/${folder}/${topic.filename}`
+            );
 
-        questions.push(...data);
+            return response.json();
 
-    }
+        })
+
+    );
 
     return {
+
         topics,
-        questions
+
+        questions: allQuestions.flat()
+
     };
 
 }
