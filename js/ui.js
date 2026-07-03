@@ -76,6 +76,11 @@ document
 document
     .getElementById("close-banner")
     .addEventListener("click", hidePresentationBanner);
+
+document
+    .getElementById("logo")
+    .addEventListener("click", goHome);
+
 }
 
 function openHelp() {
@@ -109,6 +114,46 @@ function changeTopic() {
     document
         .getElementById("change-topic-btn")
         .classList.add("hidden");
+
+}
+
+function goHome() {
+
+    // Go back to the home URL
+    history.pushState({}, "", "/");
+
+    // Reset state
+    state.currentTopic = null;
+    state.filteredQuestions = [];
+    state.currentIndex = 0;
+
+    // Exit revision mode if open
+    document
+        .getElementById("card")
+        .classList.remove("revision-mode");
+
+    state.selectedRevisionTopics = [];
+    state.revisionQuestionCount = null;
+
+    // Hide tools
+    document
+        .querySelector(".tools")
+        .classList.remove("visible");
+
+    document
+        .getElementById("change-topic-btn")
+        .classList.add("hidden");
+
+    // Show welcome screen
+    renderWelcomeScreen();
+
+    // Show topic buttons
+    document
+        .getElementById("topic-list")
+        .classList.add("visible");
+
+    // Remove topic styling
+    document.body.classList.remove("topic-active");
 
 }
 
@@ -480,6 +525,8 @@ function generateRevisionLink() {
         window.location.origin +
         "/?" +
         params.toString();
+
+history.pushState({}, "", "/?" + params.toString());
 
     const result =
         document.getElementById("share-result");
